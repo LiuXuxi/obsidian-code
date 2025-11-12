@@ -478,4 +478,16 @@ IDEA中操作
 	- 推送一个标签：git push origin <标签名称>
 	- 推送所有标签：git push origin --tags
 ## 分支概念
-- 
+- 使用分支意味着你可以把你的工作从开发主线上分离开来，以免影响开发主线
+- 在很多控制版本控制系统中，完全创建一个<font color=green>源代码目录的副本</font>
+- Git处理的分支的方式可谓是难以置信的<font color=green>轻量</font>，创建新分支几乎能在瞬间完成，并且在不同分支之间的切换操作也是一样便捷
+- GIt鼓励在工作流程中<font color=green>频繁使用分支与合并</font>，哪怕一天之内进行许多次
+- Git默认分支名字是master，在多次提交操作之后，你其实已经有一个指向最后那个提交对象的master分支
+## 分支命令
+- 创建分支
+	- git branch  <名字>
+	- ![[Pasted image 20251113073607.png]]
+- Git怎么知道当前在哪一个分支上呢？
+	- 他有一个名为<font color=green>HEAD</font>的特殊分支，指向当前所在的本地分支
+	- 使用git log命令查看各个分支当前所指对象
+		- git log --onelin
