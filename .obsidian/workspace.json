@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git分布式版本控制工具的学习使用.md",
+                "file": "数据结构与算法/数据结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git分布式版本控制工具的学习使用"
+              "title": "数据结构"
             }
           },
           {
@@ -122,6 +122,21 @@
             }
           },
           {
+            "id": "bdbd00b964bb27af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "数据结构与算法/数据结构.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "数据结构 的大纲"
+            }
+          },
+          {
             "id": "314cc726cbb4045f",
             "type": "leaf",
             "state": {
@@ -151,27 +166,21 @@
             }
           },
           {
-            "id": "bdbd00b964bb27af",
+            "id": "d17c6a1ed8da428b",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Git/Git分布式版本控制工具的学习使用.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Git分布式版本控制工具的学习使用 的大纲"
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,15 +191,16 @@
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
       "workspaces:管理工作区布局": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc494afcf0c86134",
+  "active": "d17c6a1ed8da428b",
   "lastOpenFiles": [
+    "Git/Git分布式版本控制工具的学习使用.md",
     "新建 文本文档.txt",
     "C++/C++基础笔记.md",
     "数据结构与算法/算法.md",
-    "Git/Git分布式版本控制工具的学习使用.md",
     "数据结构与算法/数据结构.md",
     "vs2022/使用上的收集.md",
     "C++/C++其他使用细节.md",
@@ -225,7 +235,6 @@
     "Code.md",
     "C语言",
     "数据结构与算法",
-    "未命名.base",
     "Code/未命名.md",
     "数据结构与算法.md",
     "欢迎.md",
