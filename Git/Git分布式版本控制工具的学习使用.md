@@ -490,4 +490,25 @@ IDEA中操作
 - Git怎么知道当前在哪一个分支上呢？
 	- 他有一个名为<font color=green>HEAD</font>的特殊分支，指向当前所在的本地分支
 	- 使用git log命令查看各个分支当前所指对象
-		- git log --onelin
+		- git log --oneline --decorate
+		- ![[Pasted image 20251113073923.png]]
+- 分支切换
+	- git checkout <名字>
+	- ![[Pasted image 20251113074029.png]]
+- 分支提交
+	- ![[Pasted image 20251113074047.png]]
+- 分支切换回master
+	- ![[Pasted image 20251113074133.png]]
+## 分支操作流程
+- 可以使用-b参数创建并切换分支
+	- git checkout -b <名字>
+	- ![[Pasted image 20251113074416.png]]
+- 接到一个bug修复任务
+	- 创建并切换问题分支(git checkout -b iss53)
+	- 修复过程提交(git commit -m message)
+	- ![[Pasted image 20251113074616.png]]
+- 暂停bug任务，修复紧急bug
+	- 无需删除iss53分支
+	- 创建并切换新分支，如hotfix
+	- 提交紧急任务修复内容
+	- ![[Pasted image 20251113074750.png]]
