@@ -458,6 +458,24 @@ IDEA中操作
  git remote add <same><url>:添加远程仓库
  git remote rename <oname> <nname>:远程仓库重命名
  git remote remove <sname>:移除远程仓库
- git remote show <sname。
-  
+ git remote show <sname>:查看某个远程仓库
+ git fetch <sname>:从远程仓库中抓取，不影响工作目录
+ git pull <sname> <branch>:从远程仓库中拉取到工作目录  --allow-unrelated-histories:
+ git push <sname> <branch>:推送到远程仓库
+ git clone <url>:克隆项目
 ```
+
+## Git标签
+- 使用标签功能来标记发布节点（v1.0、v2.0）
+	- git tag
+- 标签分类
+	- 轻量标签：本质上是将提交检验和存储到一个文件中，没有保存任何其他信息
+		- git tag <标签名>
+	- 附注标签：是存储在Git数据库中的一个完整对象，他们是可以被校验的
+		- git tag -a <标签名> -m <附注描述信息>
+- 共享标签
+	- 默认情况下，git push命令并不会传送标签到远程仓库服务器上
+	- 推送一个标签：git push origin <标签名称>
+	- 推送所有标签：git push origin --tags
+## 分支概念
+- 
