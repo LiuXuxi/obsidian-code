@@ -452,4 +452,12 @@ IDEA中操作
 
 ==master主分支应该非常稳定，用来发布新版本，一般情况下不允许在上面工作，工作一般情况下在新建的dev分支上工作，工作完后，比如上要发布，或者说dev分支代码稳定后可以合并到主分支master上来。==
 
-## 
+## 远程操作命令
+```
+ git remote [-v]查看你已经配置的远程仓库服务器
+ git remote add <same><url>:添加远程仓库
+ git remote rename <oname> <nname>:远程仓库重命名
+ git remote remove <sname>:移除远程仓库
+ git remote show <sname。
+  
+```
