@@ -1,0 +1,43 @@
+{
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "theme:use-light": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "theme:use-dark": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": " "
+    }
+  ],
+  "obsidian-style-settings:show-style-settings-leaf": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "minimal-advanced@@hide-markdown": false,
+  "minimal-advanced@@hide-settings-desc": false,
+  "minimal-cards-style@@cards-background@@light": "#36292D",
+  "minimal-cards-style@@cards-background@@dark": "#276E57",
+  "minimal-cards-style@@cards-background-hover (hover)@@light": "#205240",
+  "minimal-cards-style@@cards-background-hover (hover)@@dark": "#410725",
+  "minimal-style@@graph-line@@light": "#295634",
+  "minimal-style@@graph-line@@dark": "#341414"
+}
