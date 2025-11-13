@@ -516,4 +516,14 @@ IDEA中操作
 - 首先切换到合并分支，如主分支
 	- git checkout master
 - 执行分支合并命令
-	- git merge <名字。
+	- git merge <名字>
+- 合并冲突解决
+	- git status:查看冲突
+	- 冲突文件内容
+	- git mergetool:启用冲突解决工具
+## 分支管理命令
+- git branch -v:
+- git branch --merged：
+- git branch --no-merged:
+- git branch -d <名字>:
+	- 如果为何并的分支将会删除失败可以使用 -D选项来强制删除
