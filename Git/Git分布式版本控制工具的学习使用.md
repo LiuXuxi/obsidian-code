@@ -512,3 +512,8 @@ IDEA中操作
 	- 创建并切换新分支，如hotfix
 	- 提交紧急任务修复内容
 	- ![[Pasted image 20251113074750.png]]
+## 分支合并
+- 首先切换到合并分支，如主分支
+	- git checkout master
+- 执行分支合并命令
+	- git merge <名字。
