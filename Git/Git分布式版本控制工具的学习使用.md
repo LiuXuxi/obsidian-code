@@ -526,4 +526,17 @@ IDEA中操作
 - git branch --merged：
 - git branch --no-merged:
 - git branch -d <名字>:
-	- 如果为何并的分支将会删除失败可以使用 -D选项来强制删除
+	- 如果未合并的分支将会删除失败可以使用 -D选项来强制删除
+## 版本库目录规范
+- 根目录结构
+	- documents:项目相关文档文件夹
+	- projects:项目代码文件夹
+	- README.md:自读文件
+	- README.en.md:自读文件（英文）
+	- [模板参考链接](https://gitee.com/zero-awei/hello-gitee.git)
+	- ![[Pasted image 20251113083441.png]]
+
+## 编码规范
+- 编码孤帆
+- 阿里巴巴Java开发手册
+- Google开源项目风格指南
