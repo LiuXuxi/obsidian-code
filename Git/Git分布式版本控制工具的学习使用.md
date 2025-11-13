@@ -537,6 +537,12 @@ IDEA中操作
 	- ![[Pasted image 20251113083441.png]]
 
 ## 编码规范
-- 编码孤帆
-- 阿里巴巴Java开发手册
-- Google开源项目风格指南
+- 编码规范
+	- 阿里巴巴Java开发手册
+	- Google开源项目风格指南
+- 编码检查工具
+	- Java开发规约IDE插件
+		- [使用帮助](https://github.com/alibaba/p3c)
+	- Cpplint
+		- [谷歌使用帮助](https://github.com/zh-google-styleguide/zh-google-styleguide)
+		- [腾讯使用帮助](https://cloud.tencent.com/developer/article/1494003)
