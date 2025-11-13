@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -197,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5cbb8d422430626d",
+  "active": "fc494afcf0c86134",
   "lastOpenFiles": [
     "Assets/Pictures/Pasted image 20251113083441.png",
     "Assets/Pictures/Pasted image 20251113074750.png",
