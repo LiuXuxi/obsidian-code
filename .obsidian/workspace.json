@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++基础笔记.md",
+                "file": "C语言/C语言进阶笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++基础笔记"
+              "title": "C语言进阶笔记"
             }
           },
           {
@@ -88,8 +88,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++基础笔记.md",
+                "file": "C语言/C语言进阶笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C++基础笔记 的大纲"
+              "title": "C语言进阶笔记 的大纲"
             }
           },
           {
@@ -177,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,15 +195,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb652ecd48a145a8",
+  "active": "d17c6a1ed8da428b",
   "lastOpenFiles": [
+    "Git/Git分布式版本控制工具的学习使用.md",
+    "C语言/C语言进阶笔记.md",
     "C++/C++其他使用细节.md",
     "C++/C++基础笔记.md",
     "数据结构与算法/算法.md",
     "Assets/Pictures/Pasted image 20251114143126.png",
     "Assets/Pictures/Pasted image 20251114141856.png",
     "Assets/Pictures/Pasted image 20251114141328.png",
-    "Git/Git分布式版本控制工具的学习使用.md",
     "Assets/Pictures/Pasted image 20251113083441.png",
     "Assets/Pictures/Pasted image 20251113074750.png",
     "Assets/Pictures/Pasted image 20251113074616.png",
@@ -216,7 +216,6 @@
     "新建 文本文档.txt",
     "vs2022/使用上的收集.md",
     "C语言/刷题错题.md",
-    "C语言/C语言进阶笔记.md",
     "C语言/C语言使用细节.md",
     "Git/Git.md",
     "[P1003.md",
