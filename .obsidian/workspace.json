@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "回文",
+                "query": "右值引用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,13 +196,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5cbb8d422430626d",
+  "active": "fb652ecd48a145a8",
   "lastOpenFiles": [
+    "C++/C++其他使用细节.md",
+    "C++/C++基础笔记.md",
     "数据结构与算法/算法.md",
     "Assets/Pictures/Pasted image 20251114143126.png",
     "Assets/Pictures/Pasted image 20251114141856.png",
     "Assets/Pictures/Pasted image 20251114141328.png",
-    "C++/C++基础笔记.md",
     "Git/Git分布式版本控制工具的学习使用.md",
     "Assets/Pictures/Pasted image 20251113083441.png",
     "Assets/Pictures/Pasted image 20251113074750.png",
@@ -213,7 +215,6 @@
     "数据结构与算法/数据结构.md",
     "新建 文本文档.txt",
     "vs2022/使用上的收集.md",
-    "C++/C++其他使用细节.md",
     "C语言/刷题错题.md",
     "C语言/C语言进阶笔记.md",
     "C语言/C语言使用细节.md",
