@@ -88,8 +88,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb652ecd48a145a8",
+  "active": "fc494afcf0c86134",
   "lastOpenFiles": [
     "Git/Git分布式版本控制工具的学习使用.md",
     "C语言/C语言进阶笔记.md",
