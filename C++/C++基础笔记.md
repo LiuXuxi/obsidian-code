@@ -1172,4 +1172,4 @@ int main() {
 		  shared_ptr<int>p2(new int[3],deleteInt);
 		  void deleteInt(int*p){delete[]p;}
 		  ```
-2. 
+1. [智能指针深度详解](https://xas-sunny.blog.csdn.net/article/details/140594215?spm=1001.2014.3001.5502))
