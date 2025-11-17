@@ -1168,5 +1168,8 @@ int main() {
 		  
 		  //指定default_delete作为释放规则
 		  shared_ptr<int>p1(new int[3],default_delete<int[]>());
-		  //初始化zhi'n'z
+		  //初始化智能指针，并自定义释放规则
+		  shared_ptr<int>p2(new int[3],deleteInt);
+		  void deleteInt(int*p){delete[]p;}
 		  ```
+2. 
