@@ -1153,5 +1153,20 @@ int main() {
 	- 创建
 		- ```
 		  shared_ptr<int>p1;//不传入任何实参
-		  shared_ptr<int>p2(nullptr);//传入kong'zhi'h
+		  shared_ptr<int>p2(nullptr);//传入空指针nullptr
+		  //空的shared_ptr指针，其初始引用计数为0，而不是1.
+		  //在构建shared_ptr之只能指针，也可以明确其指向
+		  shared_ptr<int>p(new int(5));
+		  //使用std::make_shared<T>模板函数，也可以用于初始化
+		  shared_ptr<int>p=make_shared<int>(5);
+		  shared_ptr<int>p3;
+		  //调用拷贝构造函数shared_ptr<int>p4(p3);
+		  shared_ptr<int>p4=p3;
+		  //调用移动构造函数
+		  shared_ptr<int>p5(mave(p4));
+		  shared_ptr<int>5=move(p4);
+		  
+		  //指定default_delete作为释放规则
+		  shared_ptr<int>p1(new int[3],default_delete<int[]>());
+		  //初始化zhi'n'z
 		  ```
