@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/算法.md",
+                "file": "马里奥可行性分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "算法"
+              "title": "马里奥可行性分析"
             }
           },
           {
@@ -199,11 +199,11 @@
   },
   "active": "5cbb8d422430626d",
   "lastOpenFiles": [
+    "数据结构与算法/算法.md",
     "Assets/Pictures/Pasted image 20251117154301.png",
     "数据结构与算法/数据结构.md",
-    "数据结构与算法/算法.md",
     "C++/C++基础笔记.md",
-    "植物大战僵尸项目可行性分析.md",
+    "马里奥可行性分析.md",
     "C语言/C语言进阶笔记.md",
     "Git/Git分布式版本控制工具的学习使用.md",
     "C++/C++其他使用细节.md",
@@ -216,7 +216,6 @@
     "Assets/Pictures/Pasted image 20251113074416.png",
     "Assets/Pictures/Pasted image 20251113074133.png",
     "Assets/Pictures/Pasted image 20251113074047.png",
-    "Assets/Pictures/Pasted image 20251113074029.png",
     "新建 文本文档.txt",
     "vs2022/使用上的收集.md",
     "C语言/刷题错题.md",
