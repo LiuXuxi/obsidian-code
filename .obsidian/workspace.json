@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -127,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C语言/C语言进阶笔记.md",
+                "file": "数据结构与算法/算法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C语言进阶笔记 的大纲"
+              "title": "算法 的大纲"
             }
           },
           {
@@ -176,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,14 +199,15 @@
   },
   "active": "5cbb8d422430626d",
   "lastOpenFiles": [
-    "马里奥可行性分析.md",
-    "数据结构与算法/算法.md",
-    "Assets/Pictures/Pasted image 20251117154301.png",
-    "数据结构与算法/数据结构.md",
     "C++/C++基础笔记.md",
+    "C语言/刷题错题.md",
     "C语言/C语言进阶笔记.md",
     "Git/Git分布式版本控制工具的学习使用.md",
     "C++/C++其他使用细节.md",
+    "数据结构与算法/算法.md",
+    "马里奥可行性分析.md",
+    "Assets/Pictures/Pasted image 20251117154301.png",
+    "数据结构与算法/数据结构.md",
     "Assets/Pictures/Pasted image 20251114143126.png",
     "Assets/Pictures/Pasted image 20251114141856.png",
     "Assets/Pictures/Pasted image 20251114141328.png",
@@ -217,7 +219,6 @@
     "Assets/Pictures/Pasted image 20251113074047.png",
     "新建 文本文档.txt",
     "vs2022/使用上的收集.md",
-    "C语言/刷题错题.md",
     "C语言/C语言使用细节.md",
     "Git/Git.md",
     "[P1003.md",
