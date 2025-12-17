@@ -58,13 +58,6 @@ h2::before { content: counter(h1-count) "." counter(h2-count) ". "; }
     opacity: 1; /* 鼠标靠近时恢复 */
 }
 
-/* 给 Info 类型的 Callout 添加渐变 */
-.callout[data-callout="info"] {
-    background: linear-gradient(135deg, rgba(0, 122, 255, 0.1) 0%, rgba(0, 200, 255, 0.05) 100%);
-    border: 1px solid rgba(0, 122, 255, 0.2);
-    border-left: 5px solid #007aff;
-}
-
 /* 给 important 类型的 Callout 添加渐变 */
 .callout[data-callout="important"] {
     background: linear-gradient(135deg, rgba(0, 122, 255, 0.1) 0%, rgba(0, 200, 255, 0.05) 100%);
@@ -87,4 +80,8 @@ h2::before { content: counter(h1-count) "." counter(h2-count) ". "; }
 /* 如果你用了 Table Extended，确保它的表格背景透明，以便透出底色 */
 .callout table {
     background-color: transparent !important;
+}
+
+.my-table, .markdown-rendered .my-table {
+    background-color: #f0f4f8 !important; /* 强制给表格上色 */
 }
