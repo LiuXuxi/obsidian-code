@@ -73,3 +73,65 @@
     border-left: 4px solid var(--dark-retro-gold) !important;
     color: var(--dark-retro-text) !important;
 }
+
+/* 复古列表符号 */
+.markdown-rendered li::marker {
+    color: var(--dark-retro-gold) !important;
+    font-size: 1.1em;
+}
+
+/* 任务列表复选框：改为古金色边框 */
+.task-list-item-checkbox {
+    border: 1px solid var(--dark-retro-gold) !important;
+    background-color: transparent !important;
+    appearance: none;
+    border-radius: 2px;
+}
+
+.task-list-item-checkbox:checked {
+    background-color: var(--dark-retro-gold) !important;
+}
+
+/* 基础引用块美化 */
+.markdown-rendered blockquote {
+    border-left: 3px double var(--dark-retro-gold) !important; /* 双线边框 */
+    background-color: rgba(178, 148, 90, 0.05) !important; /* 极淡的金光背景 */
+    color: #a8a090 !important;
+    font-style: italic;
+    margin: 1.5em 10px !important;
+    padding: 10px 20px !important;
+}
+
+/* 代码块美化 */
+.markdown-rendered pre, .cm-s-obsidian pre {
+    background-color: #121212 !important; /* 纯黑底 */
+    border: 1px solid var(--dark-retro-border) !important;
+    border-radius: 8px !important;
+    padding: 1em !important;
+}
+
+code {
+    font-family: 'Courier New', monospace !important; /* 经典打印机字体 */
+    color: #8fa38a !important; /* 柔和的植物绿 */
+}
+
+/* 装饰性边框 Callout */
+.callout[data-callout="abstract"] {
+    background-color: transparent !important;
+    border: 2px dashed var(--dark-retro-gold) !important;
+    border-radius: 0 !important; /* 移除圆角，更硬朗 */
+}
+
+.callout[data-callout="abstract"] .callout-title {
+    color: var(--dark-retro-gold) !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* 优雅的分割线 */
+.markdown-rendered hr {
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, var(--dark-retro-gold), transparent) !important;
+    border: none !important;
+    margin: 2em 0 !important;
+}
