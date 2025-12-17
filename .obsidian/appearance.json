@@ -2,5 +2,8 @@
   "baseFontSizeAction": true,
   "cssTheme": "Minimal",
   "baseFontSize": 18,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "my-custom-style"
+  ]
 }

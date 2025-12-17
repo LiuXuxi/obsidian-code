@@ -1,0 +1,12 @@
+/* 让所有表格更美观，且强制支持滑动 */
+table {
+    display: block; /* 核心：开启块级显示 */
+    overflow-x: auto; /* 核心：溢出时自动显示滑动条 */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 15px !important; /* 增加内边距，让文字不拥挤 */
+    min-width: 120px; /* 保证每列有最小宽度，从而触发滑动 */
+}
