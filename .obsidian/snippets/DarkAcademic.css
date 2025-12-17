@@ -135,3 +135,73 @@ code {
     border: none !important;
     margin: 2em 0 !important;
 }
+
+/* 鼠标悬浮预览小窗美化 */
+.popover.hover-popover {
+    background-color: var(--dark-retro-paper) !important;
+    border: 1px solid var(--dark-retro-gold) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+    border-radius: 8px !important;
+}
+
+.popover.hover-popover .markdown-rendered {
+    padding: 15px !important;
+}
+
+/* 左侧文件列表：选中项高亮为暗金 */
+.nav-file-title.is-active, .nav-folder-title.is-active {
+    background-color: rgba(178, 148, 90, 0.15) !important;
+    color: var(--dark-retro-gold) !important;
+}
+
+/* 隐藏左边栏的多余线条，更极简 */
+.nav-file-title, .nav-folder-title {
+    color: #888275; /* 未选中状态的文字色 */
+}
+
+.nav-file-title:hover, .nav-folder-title:hover {
+    color: var(--dark-retro-gold) !important;
+}
+
+/* 文末脚注样式 */
+.footnotes {
+    border-top: 1px solid var(--dark-retro-border) !important;
+    color: #888275 !important;
+    font-size: 0.85em;
+}
+
+/* 脚注跳转链接颜色 */
+.footnote-link, .footnote-backref {
+    color: var(--dark-retro-gold) !important;
+    text-decoration: none !important;
+}
+
+/* 选中文本时的背景颜色 */
+::selection {
+    background-color: rgba(139, 67, 67, 0.4) !important; /* 淡淡的铁锈红 */
+    color: #ffffff !important;
+}
+
+/* 搜索结果的高亮 */
+.search-result-file-matches span.is-matched {
+    background-color: var(--dark-retro-gold) !important;
+    color: #1a1b16 !important;
+    border-radius: 2px;
+}
+
+
+/* 标签美化 */
+.tag, a.tag {
+    background-color: rgba(178, 148, 90, 0.1) !important;
+    color: var(--dark-retro-gold) !important;
+    border: 1px solid rgba(178, 148, 90, 0.3) !important;
+    border-radius: 4px !important;
+    padding: 2px 8px !important;
+    font-family: serif !important;
+    transition: all 0.2s;
+}
+
+.tag:hover {
+    background-color: var(--dark-retro-gold) !important;
+    color: #1a1b16 !important;
+}
