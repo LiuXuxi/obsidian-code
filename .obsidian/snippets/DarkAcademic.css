@@ -1,0 +1,75 @@
+:root {
+    /* 暗色复古调色盘 */
+    --dark-retro-bg: #1a1b16;      /* 深煤黑背景 */
+    --dark-retro-paper: #24251f;   /* 纸张色（用于卡片/表格） */
+    --dark-retro-text: #c5bdae;    /* 磨损的米色文字 */
+    --dark-retro-gold: #b2945a;    /* 古金色（高亮/链接） */
+    --dark-retro-red: #8b4343;     /* 暗铁锈红 */
+    --dark-retro-border: #3d3d33;  /* 深色边框线 */
+}
+
+/* 全局应用 */
+.theme-dark {
+    --background-primary: var(--dark-retro-bg);
+    --background-secondary: var(--dark-retro-bg);
+    --text-normal: var(--dark-retro-text);
+}
+
+/* 标题样式：带左侧金边 */
+.markdown-rendered h1, .cm-header-1,
+.markdown-rendered h2, .cm-header-2 {
+    color: var(--dark-retro-red) !important;
+    border-left: 3px solid var(--dark-retro-gold);
+    padding-left: 15px;
+    margin-top: 1.5em;
+}
+
+/* 加粗：古金色 */
+.markdown-source-view.mod-cm6 .cm-strong, 
+.markdown-rendered strong {
+    color: var(--dark-retro-gold) !important;
+    font-weight: bold;
+}
+
+/* 高亮：暗调荧光 */
+.markdown-source-view.mod-cm6 .cm-highlight,
+.markdown-rendered mark {
+    background-color: #3e3a2e !important; /* 暗金色背景 */
+    color: #e2d1a6 !important;            /* 亮金文字 */
+    padding: 0 4px;
+}
+
+/* 表格容器样式 */
+.callout table, .markdown-rendered table {
+    border: 1px solid var(--dark-retro-border) !important;
+    background-color: var(--dark-retro-paper) !important;
+    border-collapse: collapse !important;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* 增加深度感 */
+}
+
+/* 表头：深绿色质感 */
+.markdown-rendered th {
+    background-color: #2d3027 !important; /* 深橄榄绿 */
+    color: var(--dark-retro-gold) !important;
+    border-bottom: 2px solid var(--dark-retro-gold) !important;
+    padding: 12px !important;
+}
+
+/* 单元格 */
+.markdown-rendered td {
+    border-bottom: 1px solid var(--dark-retro-border) !important;
+    padding: 10px !important;
+}
+
+/* 斑马纹 */
+.markdown-rendered tr:nth-child(even) {
+    background-color: #1e1f1a !important;
+}
+
+.callout[data-callout="note"] {
+    background-color: #21221c !important;
+    border: 1px solid var(--dark-retro-gold) !important;
+    border-left: 4px solid var(--dark-retro-gold) !important;
+    color: var(--dark-retro-text) !important;
+}

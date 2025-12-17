@@ -2,8 +2,11 @@
   "baseFontSizeAction": true,
   "cssTheme": "Minimal",
   "baseFontSize": 18,
-  "theme": "obsidian",
+  "theme": "system",
   "enabledCssSnippets": [
-    "my-custom-style"
-  ]
+    "my-custom-style",
+    "DarkAcademic"
+  ],
+  "nativeMenus": false,
+  "textFontFamily": "Georgia,Noto Serif SC"
 }
