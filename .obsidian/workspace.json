@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "测试.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d17c6a1ed8da428b",
+  "active": "15ff4a4663e0864f",
   "lastOpenFiles": [
     "Git/Git分布式版本控制工具的学习使用.md",
     "测试.md",
