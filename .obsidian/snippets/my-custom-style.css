@@ -71,3 +71,20 @@ h2::before { content: counter(h1-count) "." counter(h2-count) ". "; }
     border: 1px solid rgba(0, 122, 255, 0.2);
     border-left: 5px solid #007aff;
 }
+
+/* 强制覆盖所有模式下的 Info Callout 颜色 */
+.callout[data-callout="info"] {
+    --callout-color: 0, 122, 255; /* 蓝色 RGB 值 */
+    background-color: rgba(0, 122, 255, 0.1) !important; /* 背景色 */
+    border: 1px solid rgba(0, 122, 255, 0.2) !important;
+}
+
+/* 针对阅读模式的特殊强化 */
+.markdown-rendered .callout[data-callout="info"] {
+    background-color: rgba(0, 122, 255, 0.1) !important;
+}
+
+/* 如果你用了 Table Extended，确保它的表格背景透明，以便透出底色 */
+.callout table {
+    background-color: transparent !important;
+}
