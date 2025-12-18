@@ -17,15 +17,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 64
+        "line": 9,
+        "ch": 0
       },
       "to": {
-        "line": 6,
-        "ch": 64
+        "line": 9,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "CSS代码风格测试.md": {
     "scroll": 4.735014396801329,
@@ -227,15 +229,15 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/7.单调性.md": {
-    "scroll": 17.277166178601583,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 28,
-        "ch": 65
+        "ch": 83
       },
       "to": {
         "line": 28,
-        "ch": 65
+        "ch": 83
       }
     },
     "expandedKeys": []

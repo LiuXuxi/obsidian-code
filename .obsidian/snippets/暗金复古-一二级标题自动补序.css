@@ -1,0 +1,37 @@
+/* 1. 在整个文档容器处重置计数器 */
+.markdown-rendered, .markdown-source-view.mod-cm6 .cm-content {
+    counter-reset: h1-counter; /* 初始化 H1 计数器 */
+}
+
+/* 2. 针对每个 H1 标题，计数器自增 */
+.markdown-rendered h1, .cm-header-1 {
+    counter-increment: h1-counter; /* 遇到 H1 计数器 +1 */
+    display: flex;
+    align-items: flex-start;
+}
+
+/* 3. 在 H1 标题前自动插入编号 */
+.markdown-rendered h1::before, 
+.cm-header-1 .cm-formatting-header::after {
+    content: counter(h1-counter) ". "; /* 显示格式为 "数字. " */
+    color: var(--retro-gold); /* 序号使用古金色 */
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* 4. 如果你之前在标题里手动打了 "1."，请删掉它 */
+/* 此代码会自动生成序号，手动输入会导致出现 "1. 1. 标题" 的情况 */
+
+/* 二级标题自动编号 */
+.markdown-rendered h1 { counter-reset: h2-counter; } /* 每次遇到新 H1，H2 计数器清零 */
+
+.markdown-rendered h2, .cm-header-2 {
+    counter-increment: h2-counter;
+}
+
+.markdown-rendered h2::before {
+    content: counter(h1-counter) "." counter(h2-counter) " ";
+    color: var(--retro-gold-dim);
+    font-size: 0.8em;
+    margin-right: 8px;
+}
