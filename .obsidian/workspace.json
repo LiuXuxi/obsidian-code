@@ -48,7 +48,17 @@
             }
           },
           {
-            "id": "fb652ecd48a145a8",
+            "id": "2c12ba1486cd16f1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "721abc3ee255bab8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -62,16 +72,6 @@
               },
               "icon": "lucide-search",
               "title": "搜索"
-            }
-          },
-          {
-            "id": "2c12ba1486cd16f1",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
             }
           }
         ]
@@ -184,7 +184,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "16857533225184a1",
+  "active": "fc494afcf0c86134",
   "lastOpenFiles": [
     "CSS代码风格测试.md",
     "数据结构与算法/基础算法/6.双指针.md",

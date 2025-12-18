@@ -17,12 +17,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 75,
-        "ch": 0
+        "line": 6,
+        "ch": 31
       },
       "to": {
-        "line": 75,
-        "ch": 0
+        "line": 6,
+        "ch": 31
       }
     },
     "expandedKeys": [
