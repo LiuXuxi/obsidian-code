@@ -61,19 +61,3 @@ int main() {
 >[!ABSTRACT]
 >金属边框测试
 
-
-1. 接雨水 (Trapping Rain Water)
- * 对应场景： 定义区间边界
- * 
-1. 救生艇 (Boats to Save People)
- * 对应场景： 两数之和
- * 
-1. 供暖器 (Heaters)
- * 对应场景： 定义区间边界 / 搜索
- * 
-1. 按奇偶排序数组 II (Sort Array By Parity II)
- * 对应场景： 字符交换 (原地修改)
- * 
-
-
-
