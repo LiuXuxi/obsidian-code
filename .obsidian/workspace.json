@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "数据结构与算法/基础算法/6.双指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,31 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "测试 的反向链接列表"
+              "title": "6.双指针 的反向链接列表"
+            }
+          },
+          {
+            "id": "314cc726cbb4045f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "数据结构与算法/基础算法/6.双指针.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "6.双指针 的出链列表"
+            }
+          },
+          {
+            "id": "1f52c30d4493a505",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           },
           {
@@ -121,53 +145,13 @@
               "icon": "lucide-list",
               "title": "6.双指针 的大纲"
             }
-          },
-          {
-            "id": "314cc726cbb4045f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "测试.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "测试 的出链列表"
-            }
-          },
-          {
-            "id": "9a6011d20e9659e2",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "d17c6a1ed8da428b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 282.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,8 +168,9 @@
   },
   "active": "ac3bc9d94f0a3e2c",
   "lastOpenFiles": [
-    "CSS代码风格测试.md",
+    "数据结构与算法/基础算法/5.差分.md",
     "数据结构与算法/基础算法/6.双指针.md",
+    "CSS代码风格测试.md",
     "CSS测试.md",
     "数据结构与算法/基础算法/6.尺取法（滑动窗口）、双指针.md",
     "Git/Git分布式版本控制工具的学习使用.md",
@@ -196,7 +181,6 @@
     "vs2022/使用上的收集.md",
     "C++/C++基础笔记/1.一维数组.md",
     "C++/C++其他使用细节.md",
-    "数据结构与算法/基础算法/5.差分.md",
     "C++/C++基础笔记/12.C++11新特性/8.可变参数模板.md",
     "C++/C++基础笔记/12.C++11新特性/6.列表初始化.md",
     "C++/C++基础笔记/12.C++11新特性/1.lambda表达式.md",
