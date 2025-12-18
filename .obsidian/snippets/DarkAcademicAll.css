@@ -86,11 +86,6 @@
     line-height: 1.8;
 }
 
-/* 标题 H1 - H6 */
-.markdown-rendered h1, .cm-header-1 { color: var(--retro-red) !important; border-bottom: 1px double var(--retro-gold-dim); }
-.markdown-rendered h2, .cm-header-2 { color: var(--retro-gold) !important; }
-.markdown-rendered h3, .cm-header-3 { color: var(--retro-text) !important; font-style: italic; }
-
 /* 链接 (Internal & External) */
 .markdown-rendered a, .cm-link, .cm-hmd-internal-link {
     color: var(--retro-gold) !important;
@@ -130,6 +125,10 @@ hr { background-image: linear-gradient(to right, transparent, var(--retro-gold),
 
 /* 脚注 (Footnotes) */
 .footnotes { border-top: 1px solid var(--retro-border); font-size: 0.9em; opacity: 0.8; }
+
+/* =========================================
+   4. 动态 Tab 表格系统 (Tabs System)
+   ========================================= */
 
 /* 1. 容器：支持横向滚动表头 */
 .retro-tabs-container {

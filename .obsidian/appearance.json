@@ -4,12 +4,10 @@
   "baseFontSize": 19,
   "theme": "system",
   "enabledCssSnippets": [
-    "my-custom-style",
-    "DarkAcademicAll",
-    "DarkAcademic",
     "暗金复古-代码块",
     "暗金复古-一级标题自动补序",
-    "暗金复古-一二级标题自动补序"
+    "DarkAcademic",
+    "DarkAcademicAll"
   ],
   "nativeMenus": false,
   "textFontFamily": "Georgia,Noto Serif SC"

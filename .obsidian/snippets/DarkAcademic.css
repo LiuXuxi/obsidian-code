@@ -15,7 +15,7 @@
     --text-normal: var(--dark-retro-text);
 }
 
-/* 标题样式：带左侧金边 */
+/* 标题样式：带左侧金边（移除了自动编号计数器） */
 .markdown-rendered h1, .cm-header-1,
 .markdown-rendered h2, .cm-header-2 {
     color: var(--dark-retro-red) !important;
