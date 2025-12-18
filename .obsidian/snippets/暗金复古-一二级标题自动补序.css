@@ -1,37 +1,38 @@
-/* 1. 在整个文档容器处重置计数器 */
+/* =========================================
+   🏛️ 复古标题层级自动编号 (Nested Counters)
+   ========================================= */
+
+/* 1. 初始化全局计数器（在笔记容器处） */
 .markdown-rendered, .markdown-source-view.mod-cm6 .cm-content {
-    counter-reset: h1-counter; /* 初始化 H1 计数器 */
+    counter-reset: h1-counter; 
 }
 
-/* 2. 针对每个 H1 标题，计数器自增 */
+/* 2. 一级标题 (H1) 逻辑 */
 .markdown-rendered h1, .cm-header-1 {
-    counter-increment: h1-counter; /* 遇到 H1 计数器 +1 */
-    display: flex;
-    align-items: flex-start;
+    counter-increment: h1-counter;
+    counter-reset: h2-counter; /* 遇到新的 H1，重置 H2 的计数 */
 }
 
-/* 3. 在 H1 标题前自动插入编号 */
 .markdown-rendered h1::before, 
 .cm-header-1 .cm-formatting-header::after {
-    content: counter(h1-counter) ". "; /* 显示格式为 "数字. " */
-    color: var(--retro-gold); /* 序号使用古金色 */
-    margin-right: 10px;
+    content: counter(h1-counter) ". "; /* 显示格式: "1. " */
+    color: var(--retro-gold);
     font-weight: bold;
+    margin-right: 8px;
 }
 
-/* 4. 如果你之前在标题里手动打了 "1."，请删掉它 */
-/* 此代码会自动生成序号，手动输入会导致出现 "1. 1. 标题" 的情况 */
-
-/* 二级标题自动编号 */
-.markdown-rendered h1 { counter-reset: h2-counter; } /* 每次遇到新 H1，H2 计数器清零 */
-
+/* 3. 二级标题 (H2) 逻辑 */
 .markdown-rendered h2, .cm-header-2 {
     counter-increment: h2-counter;
 }
 
-.markdown-rendered h2::before {
-    content: counter(h1-counter) "." counter(h2-counter) " ";
+.markdown-rendered h2::before,
+.cm-header-2 .cm-formatting-header::after {
+    content: counter(h1-counter) "." counter(h2-counter) " "; /* 显示格式: "1.1 " */
     color: var(--retro-gold-dim);
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-right: 8px;
 }
+
+/* 4. 彻底解决重复：隐藏你可能手动打的数字前缀 (可选，但推荐) */
+/* 如果你习惯在笔记里顺手打个数字，这段代码可以尝试屏蔽它，但最稳妥是手动删除 */
