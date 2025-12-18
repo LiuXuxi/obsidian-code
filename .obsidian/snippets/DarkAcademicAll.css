@@ -130,3 +130,73 @@ hr { background-image: linear-gradient(to right, transparent, var(--retro-gold),
 
 /* 脚注 (Footnotes) */
 .footnotes { border-top: 1px solid var(--retro-border); font-size: 0.9em; opacity: 0.8; }
+
+/* 1. 容器：支持横向滚动表头 */
+.retro-tabs-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--retro-paper);
+    border: 1px solid var(--retro-border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+/* 2. 隐藏单选框 */
+.retro-tabs-container input[type="radio"] {
+    display: none;
+}
+
+/* 3. 表头区域：支持滑动 */
+.retro-tabs-header {
+    display: flex;
+    overflow-x: auto;
+    background-color: #141511;
+    border-bottom: 2px solid var(--retro-border);
+    scrollbar-width: none; /* 隐藏滚动条 */
+}
+
+.retro-tabs-header::-webkit-scrollbar { display: none; }
+
+/* 4. 模拟表头项（Label） */
+.retro-tabs-header label {
+    padding: 12px 20px;
+    cursor: pointer;
+    color: var(--retro-text-mute);
+    font-family: serif;
+    white-space: nowrap;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.retro-tabs-header label:hover {
+    color: var(--retro-gold);
+}
+
+/* 5. 选中状态：古金色高亮 */
+#tab1:checked ~ .retro-tabs-header label[for="tab1"],
+#tab2:checked ~ .retro-tabs-header label[for="tab2"],
+#tab3:checked ~ .retro-tabs-header label[for="tab3"] {
+    color: var(--retro-gold) !important;
+    border-bottom: 2px solid var(--retro-gold);
+    background-color: rgba(178, 148, 90, 0.1);
+}
+
+/* 6. 内容区域切换逻辑 */
+.tab-content {
+    display: none;
+    padding: 15px;
+    animation: fadeIn 0.4s;
+}
+
+/* 根据选中显示对应内容 */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
