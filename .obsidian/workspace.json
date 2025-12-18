@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#待办",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,7 +183,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac3bc9d94f0a3e2c",
+  "active": "fb652ecd48a145a8",
   "lastOpenFiles": [
     "数据结构与算法/基础算法/6.双指针.md",
     "CSS测试.md",
