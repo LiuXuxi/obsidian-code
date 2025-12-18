@@ -2,7 +2,7 @@
   "baseFontSizeAction": true,
   "cssTheme": "",
   "baseFontSize": 19,
-  "theme": "system",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "暗金复古-代码块",
     "暗金复古-一级标题自动补序",
