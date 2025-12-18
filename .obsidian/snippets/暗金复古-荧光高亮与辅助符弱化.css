@@ -1,0 +1,21 @@
+/* 荧光笔高亮效果 */
+mark {
+    background-color: transparent;
+    background-image: linear-gradient(120deg, rgba(255, 230, 0, 0.4) 0%, rgba(255, 230, 0, 0.4) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 40%; /* 高亮厚度：40% */
+    background-position: 0 80%; /* 高亮位置 */
+    color: inherit;
+    padding: 0;
+}
+
+/* 弱化 Markdown 辅助符号 (仅限编辑模式) */
+.cm-s-obsidian span.cm-formatting, 
+.cm-s-obsidian span.cm-separator {
+    opacity: 0.3; /* 透明度 30% */
+    transition: opacity 0.2s;
+}
+
+.cm-s-obsidian span.cm-formatting:hover {
+    opacity: 1; /* 鼠标靠近时恢复 */
+}

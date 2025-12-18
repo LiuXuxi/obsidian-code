@@ -1,0 +1,13 @@
+/* 图片美化：圆角、阴影、居中 */
+.markdown-rendered img {
+    display: block;
+    margin: 20px auto !important; /* 自动居中 */
+    border-radius: 12px;         /* 圆角 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 柔和阴影 */
+    transition: transform 0.3s ease; /* 增加悬浮缩放动画 */
+}
+
+/* 鼠标悬浮在图片上时轻微放大 */
+.markdown-rendered img:hover {
+    transform: scale(1.02);
+}
