@@ -38,3 +38,14 @@
 当你把鼠标悬浮在上面的 [[亚历山大图书馆]]（如果在任务一中创建了同名笔记）时，应该会看到一个带金边的黑色小弹窗。
 
 [^1]: 见《炼金术通志》第 402 页，1655 年版本。
+
+
+# 这是一个关于算法的复古代码块测试
+def opposite_pointers(arr):
+    left, right = 0, len(arr) - 1
+    while left < right:
+        # 核心逻辑：对撞双指针
+        if arr[left] + arr[right] == "target":
+            return True
+        left += 1
+    return False

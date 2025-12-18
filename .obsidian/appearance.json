@@ -6,7 +6,8 @@
   "enabledCssSnippets": [
     "my-custom-style",
     "DarkAcademicAll",
-    "DarkAcademic"
+    "DarkAcademic",
+    "暗金复古-代码块"
   ],
   "nativeMenus": false,
   "textFontFamily": "Georgia,Noto Serif SC"

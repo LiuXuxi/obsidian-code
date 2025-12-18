@@ -1,0 +1,58 @@
+/* =========================================
+   代码块整体容器 (Code Block Container)
+   ========================================= */
+.markdown-rendered pre, 
+.markdown-source-view.mod-cm6 .cm-content pre {
+    background-color: #121212 !important; /* 极深墨黑色 */
+    border: 1px solid var(--retro-border) !important;
+    border-left: 4px solid var(--retro-gold) !important; /* 左侧金边装饰 */
+    border-radius: 4px !important;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* 内阴影增加深度感 */
+    padding: 1em !important;
+    margin: 1.5em 0 !important;
+}
+
+/* 行内代码 (Inline Code) - 像旧打字机印出的字 */
+code {
+    color: var(--retro-gold) !important;
+    background-color: rgba(178, 148, 90, 0.1) !important;
+    padding: 2px 5px !important;
+    border-radius: 3px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+/* =========================================
+   代码高亮色调适配 (Syntax Highlighting)
+   让代码颜色变得柔和、复古
+   ========================================= */
+
+/* 关键字 (if, let, const, return 等) */
+.token.keyword, .cm-keyword { color: #8b4343 !important; font-weight: bold; } /* 铁锈红 */
+
+/* 函数名 */
+.token.function, .cm-function { color: var(--retro-gold) !important; } /* 古金色 */
+
+/* 字符串 (文本内容) */
+.token.string, .cm-string { color: #6d7a5f !important; } /* 枯叶绿 */
+
+/* 注释 (Comment) */
+.token.comment, .cm-comment { 
+    color: #5c5850 !important; 
+    font-style: italic !important; 
+} /* 磨损灰 */
+
+/* 数字与布尔值 */
+.token.number, .token.boolean, .cm-number { color: #9a8370 !important; } /* 陶土色 */
+
+/* 运算符与符号 */
+.token.operator, .token.punctuation, .cm-punctuation { color: var(--retro-text-mute) !important; }
+
+/* =========================================
+   代码块右上角语言标识 (Language Indicator)
+   ========================================= */
+.markdown-rendered pre::before {
+    color: var(--retro-gold-dim) !important;
+    font-family: serif !important;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
