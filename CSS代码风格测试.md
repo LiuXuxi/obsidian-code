@@ -39,13 +39,21 @@
 
 [^1]: 见《炼金术通志》第 402 页，1655 年版本。
 
+>代码块测试
 
-# 这是一个关于算法的复古代码块测试
-def opposite_pointers(arr):
-    left, right = 0, len(arr) - 1
-    while left < right:
-        # 核心逻辑：对撞双指针
-        if arr[left] + arr[right] == "target":
-            return True
-        left += 1
-    return False
+```cpp
+#include <vector>
+using namespace std;
+
+/**
+ * @brief 对撞双指针示例
+ */
+int main() {
+    vector<int> nums = {1, 2, 3, 4, 5};
+    int* p = &nums[0]; // 指针符号 * 和 & 会呈现浅米色
+    
+    if (nums.empty()) return 0; // 关键字 return/if 呈现铁锈红
+    
+    return 0;
+}
+```

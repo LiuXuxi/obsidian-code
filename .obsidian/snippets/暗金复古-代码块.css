@@ -1,58 +1,87 @@
-/* =========================================
-   代码块整体容器 (Code Block Container)
-   ========================================= */
+/* ============================================================
+   🏛️ 暗金复古代码块全集 (Dark Academic Code Suite)
+   包含：基础容器、通用高亮、C++ 深度适配
+   ============================================================ */
+
+/* 1. 代码块整体容器样式 */
 .markdown-rendered pre, 
 .markdown-source-view.mod-cm6 .cm-content pre {
-    background-color: #121212 !important; /* 极深墨黑色 */
-    border: 1px solid var(--retro-border) !important;
-    border-left: 4px solid var(--retro-gold) !important; /* 左侧金边装饰 */
+    background-color: #121212 !important; /* 深墨黑背景 */
+    border: 1px solid #3d3d33 !important; /* 暗色边框 */
+    border-left: 5px solid #b2945a !important; /* 明显的左侧古金边 */
     border-radius: 4px !important;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* 内阴影增加深度感 */
-    padding: 1em !important;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.6); /* 增加内部凹陷阴影 */
+    padding: 1.2em !important;
     margin: 1.5em 0 !important;
+    position: relative;
 }
 
-/* 行内代码 (Inline Code) - 像旧打字机印出的字 */
+/* 2. 行内代码块样式 (如 `code`) */
 code {
-    color: var(--retro-gold) !important;
-    background-color: rgba(178, 148, 90, 0.1) !important;
-    padding: 2px 5px !important;
+    color: #b2945a !important; /* 古金色文字 */
+    background-color: rgba(178, 148, 90, 0.12) !important;
+    padding: 2px 6px !important;
     border-radius: 3px !important;
     font-family: 'Courier New', Courier, monospace !important;
+    border: 0.5px solid rgba(178, 148, 90, 0.2) !important;
 }
 
-/* =========================================
-   代码高亮色调适配 (Syntax Highlighting)
-   让代码颜色变得柔和、复古
-   ========================================= */
+/* 3. C++ 深度语法高亮扩展 (复古消光色调) */
 
-/* 关键字 (if, let, const, return 等) */
-.token.keyword, .cm-keyword { color: #8b4343 !important; font-weight: bold; } /* 铁锈红 */
+/* C++ 关键字：int, double, void, return, if, for, class, public 等 */
+.token.keyword, .cm-keyword {
+    color: #8b4343 !important; /* 铁锈红，沉稳且对比鲜明 */
+    font-weight: bold !important;
+}
 
-/* 函数名 */
-.token.function, .cm-function { color: var(--retro-gold) !important; } /* 古金色 */
+/* C++ 预处理指令：#include, #define, #ifdef */
+.token.directive, .token.macro, .cm-meta {
+    color: #5f6f52 !important; /* 暗灰绿色，像旧信纸上的墨迹 */
+    font-style: italic !important;
+}
 
-/* 字符串 (文本内容) */
-.token.string, .cm-string { color: #6d7a5f !important; } /* 枯叶绿 */
+/* C++ 类型与类名：std::vector, string, size_t, 自定义类 */
+.token.class-name, .token.type, .cm-type {
+    color: #b2945a !important; /* 核心古金色 */
+    text-shadow: 0 0 1px rgba(178, 148, 90, 0.2);
+}
 
-/* 注释 (Comment) */
-.token.comment, .cm-comment { 
-    color: #5c5850 !important; 
-    font-style: italic !important; 
-} /* 磨损灰 */
+/* C++ 指针、引用与操作符：*, &, ->, ::, +, -, == */
+.token.operator, .token.punctuation, .cm-punctuation, .token.pointer {
+    color: #d4c5a9 !important; /* 浅亮米色，确保 * 指针符号在黑底上清晰 */
+    font-weight: 500 !important;
+}
 
-/* 数字与布尔值 */
-.token.number, .token.boolean, .cm-number { color: #9a8370 !important; } /* 陶土色 */
+/* C++ 函数与方法：main, push_back, cout, printf */
+.token.function, .cm-variable-2, .cm-function {
+    color: #a67c52 !important; /* 琥珀橙金，区分于类型名 */
+}
 
-/* 运算符与符号 */
-.token.operator, .token.punctuation, .cm-punctuation { color: var(--retro-text-mute) !important; }
+/* C++ 字符串与字符： "text", 'a' */
+.token.string, .token.char, .cm-string {
+    color: #7a8266 !important; /* 枯草绿，低饱和度不刺眼 */
+}
 
-/* =========================================
-   代码块右上角语言标识 (Language Indicator)
-   ========================================= */
+/* C++ 数字与常量： 1024, 0xff, nullptr, true, false */
+.token.number, .token.boolean, .token.constant, .cm-number {
+    color: #9a8370 !important; /* 陶土色 */
+}
+
+/* C++ 注释： // 或 /* */
+.token.comment, .cm-comment {
+    color: #5c5850 !important; /* 磨损灰，降低视觉优先级 */
+    font-style: italic !important;
+}
+
+/* 4. 代码块右上角语言标签提示 */
 .markdown-rendered pre::before {
-    color: var(--retro-gold-dim) !important;
+    content: attr(data-language);
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    color: rgba(178, 148, 90, 0.4) !important;
+    font-size: 0.75em;
     font-family: serif !important;
-    font-variant: small-caps;
-    letter-spacing: 1px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
