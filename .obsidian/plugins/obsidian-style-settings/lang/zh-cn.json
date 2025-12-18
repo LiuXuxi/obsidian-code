@@ -1,0 +1,45 @@
+{
+    "manifest": {
+        "translationVersion": 1766043547914,
+        "pluginVersion": "1.0.9"
+    },
+    "description": {
+        "original": "Offers controls for adjusting theme, plugin, and snippet CSS variables.",
+        "translation": "Offers controls for adjusting theme, plugin, and snippet CSS variables."
+    },
+    "dict": {
+        ".error(\"Error: Style Settings locale not found\",ct)": ".error(\"Error: Style Settings locale not found\",ct)",
+        ".error(`${de(\"Error:\")": ".error(`${de(\"Error:\")",
+        ".error(\"Style Settings | Failed to render section\",p)": ".error(\"Style Settings | Failed to render section\",p)",
+        "name: \"+r)},E.autodetect.push({p:5,test:function(r){for(var s=[],o=arguments.length-1;o-- >0;)s[o]=arguments[o+1];if(!s.length&&zs(r)===\"": "name: \"+r)},E.autodetect.push({p:5,test:function(r){for(var s=[],o=arguments.length-1;o-- >0;)s[o]=arguments[o+1];if(!s.length&&zs(r)===\"",
+        "name:\"style-settings-import-input\"": "name:\"style-settings-import-input\"",
+        "name:\"Show style settings view\"": "name:\"Show style settings view\"",
+        "name:\"Style Settings\"": "name:\"Style Settings\"",
+        "name:`Toggle ${a.title}`": "name:`Toggle ${a.title}`",
+        "text:\"Copy to clipboard\"": "text:\"Copy to clipboard\"",
+        "text:\"Download\"": "text:\"Download\"",
+        "text:\"Error importing config\"": "text:\"Error importing config\"",
+        "text:\"Import from file\"": "text:\"Import from file\"",
+        "text:`${de(\"Default:\")} `": "text:`${de(\"Default:\")} `",
+        "text:\"Default (light): \"": "text:\"Default (light): \"",
+        "text:\"Default (dark): \"": "text:\"Default (dark): \"",
+        "text:`Error: ${i.name}`": "text:`Error: ${i.name}`",
+        "text:\"No style settings found\"": "text:\"No style settings found\"",
+        "text:\"Click here for details and examples.\"": "text:\"Click here for details and examples.\"",
+        "text:\"Import\"": "text:\"Import\"",
+        "text:\"Export\"": "text:\"Export\"",
+        ".setText(`Error importing style settings: ${p}`)": ".setText(`Error importing style settings: ${p}`)",
+        ".setText(\"Error importing style settings: config is empty\")": ".setText(\"Error importing style settings: config is empty\")",
+        ".setText(`${this.filterResultCount} Results`)": ".setText(`${this.filterResultCount} Results`)",
+        ".setButtonText(\"Save\")": ".setButtonText(\"Save\")",
+        ".setName(`Export settings for: ${this.section}`)": ".setName(`Export settings for: ${this.section}`)",
+        ".setName(\"Import style setting\")": ".setName(\"Import style setting\")",
+        ".setDesc(\"Import an entire or partial configuration. Warning: this may override existing settings\")": ".setDesc(\"Import an entire or partial configuration. Warning: this may override existing settings\")",
+        ".setPlaceholder(\"Paste config here...\")": ".setPlaceholder(\"Paste config here...\")",
+        ".setPlaceholder(\"Search Style Settings...\")": ".setPlaceholder(\"Search Style Settings...\")",
+        ".setTooltip(\"Reset all settings to default\")": ".setTooltip(\"Reset all settings to default\")",
+        ".setTooltip(\"Export settings\")": ".setTooltip(\"Export settings\")",
+        ".appendText(\"Style settings configured by theme and plugin authors will show up here. You can also create your own configuration by creating a CSS snippet in your vault. \")": ".appendText(\"Style settings configured by theme and plugin authors will show up here. You can also create your own configuration by creating a CSS snippet in your vault. \")",
+        ".innerText=`\n\t\t\tbody.css-settings-manager {\n\t\t\t\t${n.reduce((i,l)=>i+`": ".innerText=`\n\t\t\tbody.css-settings-manager {\n\t\t\t\t${n.reduce((i,l)=>i+`"
+    }
+}

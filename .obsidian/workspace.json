@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f874a54e5a807dc2",
+        "id": "cb03d009b6c717b8",
         "type": "tabs",
         "children": [
           {
-            "id": "ac3bc9d94f0a3e2c",
+            "id": "d3798abc382580c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构与算法/基础算法/6.双指针.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "6.双指针"
+              "title": "新标签页"
             }
           }
         ]
@@ -178,13 +174,31 @@
       "bases:创建新数据库": false,
       "workspaces:管理工作区布局": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pkmer:Open Pkmer Market": false,
+      "copilot:Open Copilot Chat": false,
+      "i18n:I18N": false
     }
   },
-  "active": "ac3bc9d94f0a3e2c",
+  "active": "d3798abc382580c2",
   "lastOpenFiles": [
-    "数据结构与算法/基础算法/5.差分.md",
     "数据结构与算法/基础算法/6.双指针.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "数据结构与算法/基础算法/5.差分.md",
     "CSS代码风格测试.md",
     "CSS测试.md",
     "数据结构与算法/基础算法/6.尺取法（滑动窗口）、双指针.md",
@@ -198,19 +212,6 @@
     "C++/C++其他使用细节.md",
     "C++/C++基础笔记/12.C++11新特性/8.可变参数模板.md",
     "C++/C++基础笔记/12.C++11新特性/6.列表初始化.md",
-    "C++/C++基础笔记/12.C++11新特性/1.lambda表达式.md",
-    "C++/C++基础笔记.md",
-    "C++/C++基础笔记/12.C++11新特性/7.智能指针.md",
-    "C++/C++基础笔记/12.C++11新特性/5.移动语义.md",
-    "C++/C++基础笔记/12.C++11新特性/4.右值引用&&.md",
-    "C++/C++基础笔记/12.C++11新特性/3.decltype.md",
-    "C++/C++基础笔记/12.C++11新特性/2.auto.md",
-    "C++/C++基础笔记/11.文件操作.md",
-    "C++/C++基础笔记/10.模板.md",
-    "C++/C++基础笔记/9.异常处理.md",
-    "C++/C++基础笔记/8.STL/8.6常用算法.md",
-    "C++/C++基础笔记/8.STL/8.5map,multimap.md",
-    "C++/C++基础笔记/8.STL/8.4set,multiset.md",
     "C++/C++基础笔记/7.面向对象编程",
     "C++/C++基础笔记/8.STL",
     "C++/C++基础笔记/1.一维数组",
@@ -226,8 +227,6 @@
     "Assets/Pictures/Pasted image 20251113074616.png",
     "Assets/Pictures/Pasted image 20251113074416.png",
     "Assets/Pictures/Pasted image 20251113074133.png",
-    "新建 文本文档.txt",
-    "Git",
-    "C++"
+    "新建 文本文档.txt"
   ]
 }
