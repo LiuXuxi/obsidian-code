@@ -1,0 +1,132 @@
+/* =========================================
+   1. 核心配色方案 (CSS Variables)
+   ========================================= */
+:root {
+    --retro-bg: #1a1b16;            /* 深煤黑背景 */
+    --retro-paper: #24251f;         /* 纸张/卡片色 */
+    --retro-gold: #b2945a;          /* 核心古金色 */
+    --retro-gold-dim: rgba(178, 148, 90, 0.3); 
+    --retro-red: #8b4343;           /* 铁锈红 */
+    --retro-green: #4a5d4d;         /* 暗绿 */
+    --retro-text: #c5bdae;          /* 磨损米色文字 */
+    --retro-text-mute: #7c766a;     /* 低亮度文字 */
+    --retro-border: #3d3d33;        /* 边框线 */
+    --retro-accent: #d4af37;        /* 高亮金 */
+}
+
+/* =========================================
+   2. 非编辑区 UI 渲染 (UI Elements)
+   ========================================= */
+
+/* 整体界面底色 */
+.app-container, .horizontal-main-container, .workspace {
+    background-color: var(--retro-bg) !important;
+}
+
+/* 左侧文件管理器 (File Explorer) */
+.nav-folder-title, .nav-file-title {
+    color: var(--retro-text-mute) !important;
+    font-family: serif !important;
+}
+
+/* 选中的文件或文件夹 */
+.nav-file-title.is-active, .nav-folder-title.is-active {
+    background-color: var(--retro-gold-dim) !important;
+    color: var(--retro-gold) !important;
+    font-weight: bold;
+}
+
+/* 鼠标悬停文件 */
+.nav-file-title:hover, .nav-folder-title:hover {
+    background-color: rgba(178, 148, 90, 0.1) !important;
+    color: var(--retro-gold) !important;
+}
+
+/* 顶部标签页 (Tabs) */
+.tab-header {
+    background-color: var(--retro-bg) !important;
+    border-bottom: 2px solid var(--retro-border) !important;
+}
+
+.tab-header.is-active {
+    background-color: var(--retro-paper) !important;
+    border-bottom: 2px solid var(--retro-gold) !important;
+}
+
+/* 侧边图标栏 (Ribbon) */
+.side-nav-view {
+    background-color: #141511 !important;
+    border-right: 1px solid var(--retro-border) !important;
+}
+
+.side-nav-view .clickable-icon {
+    color: var(--retro-gold-dim) !important;
+}
+
+.side-nav-view .clickable-icon:hover {
+    color: var(--retro-gold) !important;
+}
+
+/* 底部状态栏 (Status Bar) */
+.status-bar {
+    background-color: #141511 !important;
+    border-top: 1px solid var(--retro-border) !important;
+    color: var(--retro-text-mute) !important;
+    font-size: 11px;
+}
+
+/* =========================================
+   3. 全语法 Markdown 渲染 (Editor & Preview)
+   ========================================= */
+
+/* 基础文字与背景 */
+.markdown-source-view.mod-cm6, .markdown-rendered {
+    background-color: var(--retro-bg) !important;
+    color: var(--retro-text) !important;
+    line-height: 1.8;
+}
+
+/* 标题 H1 - H6 */
+.markdown-rendered h1, .cm-header-1 { color: var(--retro-red) !important; border-bottom: 1px double var(--retro-gold-dim); }
+.markdown-rendered h2, .cm-header-2 { color: var(--retro-gold) !important; }
+.markdown-rendered h3, .cm-header-3 { color: var(--retro-text) !important; font-style: italic; }
+
+/* 链接 (Internal & External) */
+.markdown-rendered a, .cm-link, .cm-hmd-internal-link {
+    color: var(--retro-gold) !important;
+    text-decoration: underline rgba(178, 148, 90, 0.3) !important;
+}
+
+/* 加粗、斜体、删除线 */
+strong, .cm-strong { color: var(--retro-accent) !important; }
+em, .cm-em { color: var(--retro-text); font-family: serif; }
+del, .cm-strikethrough { color: var(--retro-text-mute) !important; }
+
+/* 列表与任务 (Lists & Tasks) */
+.markdown-rendered li::marker { color: var(--retro-gold) !important; }
+.task-list-item-checkbox { border: 1px solid var(--retro-gold) !important; }
+
+/* 代码块 (Inline & Block) */
+code { color: #8fa38a !important; background-color: #121212 !important; }
+pre code { display: block; padding: 15px !important; border: 1px solid var(--retro-border) !important; }
+
+/* 引用块 (Blockquote) */
+blockquote {
+    border-left: 3px double var(--retro-gold) !important;
+    background-color: rgba(178, 148, 90, 0.05) !important;
+    color: #a8a090 !important;
+}
+
+/* 分割线 (HR) */
+hr { background-image: linear-gradient(to right, transparent, var(--retro-gold), transparent) !important; }
+
+/* 标签 (Tags) */
+.tag, a.tag {
+    background-color: var(--retro-gold-dim) !important;
+    color: var(--retro-gold) !important;
+    border: 1px solid var(--retro-gold-dim) !important;
+    border-radius: 4px;
+}
+
+/* 脚注 (Footnotes) */
+.footnotes { border-top: 1px solid var(--retro-border); font-size: 0.9em; opacity: 0.8; }

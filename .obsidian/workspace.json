@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS测试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#待办",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,10 +182,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb652ecd48a145a8",
+  "active": "ac3bc9d94f0a3e2c",
   "lastOpenFiles": [
-    "数据结构与算法/基础算法/6.双指针.md",
+    "CSS代码风格测试.md",
     "CSS测试.md",
+    "数据结构与算法/基础算法/6.双指针.md",
     "数据结构与算法/基础算法/6.尺取法（滑动窗口）、双指针.md",
     "Git/Git分布式版本控制工具的学习使用.md",
     "ceshi1.md",
@@ -212,7 +212,6 @@
     "C++/C++基础笔记/8.STL/8.6常用算法.md",
     "C++/C++基础笔记/8.STL/8.5map,multimap.md",
     "C++/C++基础笔记/8.STL/8.4set,multiset.md",
-    "C++/C++基础笔记/8.STL/8.3list（双向链表）.md",
     "C++/C++基础笔记/7.面向对象编程",
     "C++/C++基础笔记/8.STL",
     "C++/C++基础笔记/1.一维数组",

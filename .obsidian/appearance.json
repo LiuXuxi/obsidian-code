@@ -4,8 +4,9 @@
   "baseFontSize": 16,
   "theme": "system",
   "enabledCssSnippets": [
-    "DarkAcademic",
-    "my-custom-style"
+    "my-custom-style",
+    "DarkAcademicAll",
+    "DarkAcademic"
   ],
   "nativeMenus": false,
   "textFontFamily": "Georgia,Noto Serif SC"
