@@ -14,7 +14,7 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/6.双指针.md": {
-    "scroll": 444.453577580019,
+    "scroll": 442.71491174530564,
     "cursor": {
       "from": {
         "line": 391,
@@ -309,6 +309,34 @@
       "to": {
         "line": 8,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/9.队列.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 120
+      },
+      "to": {
+        "line": 2,
+        "ch": 120
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/栈.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 131
+      },
+      "to": {
+        "line": 0,
+        "ch": 131
       }
     },
     "expandedKeys": []
