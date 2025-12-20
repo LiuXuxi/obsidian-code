@@ -1,90 +1,80 @@
-/*/* ============================================================
-   🏛️ 暗金复古代码块全集 (Dark Academic Code Suite)
-   包含：基础容器、通用高亮、C++ 深度适配
+/* ============================================================
+   ⚔️ 终极复古暗金代码高亮 (Ultimate Vintage Alchemy)
+   针对 C++ 深度优化，适配所有算法场景
    ============================================================ */
 
-/* 1. 代码块整体容器样式 */
+/* 1. 代码块整体容器：模拟深色实验室黑板 */
 .markdown-rendered pre, 
 .markdown-source-view.mod-cm6 .cm-content pre {
-    background-color: #121212 !important; /* 深墨黑背景 */
-    border: 1px solid #3d3d33 !important; /* 暗色边框 */
-    border-left: 5px solid #b2945a !important; /* 明显的左侧古金边 */
-    border-radius: 4px !important;
-    box-shadow: inset 0 0 15px rgba(0,0,0,0.6); /* 增加内部凹陷阴影 */
+    background-color: #121212 !important; /* 纯深黑背景 */
+    border: 1px solid #3d3d33 !important;
+    border-left: 5px solid #b2945a !important; /* 核心古金边 */
+    border-radius: 6px !important;
     padding: 1.2em !important;
-    margin: 1.5em 0 !important;
-    position: relative;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
 }
 
-/* 2. 行内代码块样式 (如 `code`) */
-code {
-    color: #b2945a !important; /* 古金色文字 */
-    background-color: rgba(178, 148, 90, 0.12) !important;
-    padding: 2px 6px !important;
-    border-radius: 3px !important;
-    font-family: 'Courier New', Courier, monospace !important;
-    border: 0.5px solid rgba(178, 148, 90, 0.2) !important;
-}
+/* 2. C++ 深度语法调色盘 */
 
-/* 3. C++ 深度语法高亮扩展 (复古消光色调) */
-
-/* C++ 关键字：int, double, void, return, if, for, class, public 等 */
+/* 关键字：return, class, public, if, for, while, new, sizeof */
 .token.keyword, .cm-keyword {
-    color: #8b4343 !important; /* 铁锈红，沉稳且对比鲜明 */
+    color: #8b4343 !important; /* 暗铁锈红，象征骨架 */
     font-weight: bold !important;
 }
 
-/* C++ 预处理指令：#include, #define, #ifdef */
+/* 预处理指令：#include, #define, #pragma */
 .token.directive, .token.macro, .cm-meta {
-    color: #5f6f52 !important; /* 暗灰绿色，像旧信纸上的墨迹 */
+    color: #5f6f52 !important; /* 枯叶绿，像旧书上的批注 */
     font-style: italic !important;
 }
 
-/* C++ 类型与类名：std::vector, string, size_t, 自定义类 */
-.token.class-name, .token.type, .cm-type {
+/* 基础内置类型：int, double, char, bool, void, size_t */
+.token.builtin, .cm-type.cm-builtin {
     color: #b2945a !important; /* 核心古金色 */
-    text-shadow: 0 0 1px rgba(178, 148, 90, 0.2);
 }
 
-/* C++ 指针、引用与操作符：*, &, ->, ::, +, -, == */
-.token.operator, .token.punctuation, .cm-punctuation, .token.pointer {
-    color: #d4c5a9 !important; /* 浅亮米色，确保 * 指针符号在黑底上清晰 */
-    font-weight: 500 !important;
+/* 算法核心类与模板：std::vector, string, ListNode, Solution */
+.token.class-name, .cm-type, .token.template-punctuation {
+    color: #d4af37 !important; /* 明亮琥珀金，突出对象感 */
+    text-shadow: 0 0 1px rgba(212, 175, 55, 0.3);
 }
 
-/* C++ 函数与方法：main, push_back, cout, printf */
-.token.function, .cm-variable-2, .cm-function {
-    color: #a67c52 !important; /* 琥珀橙金，区分于类型名 */
+/* 重点优化：内存与指针操作符 (*, &, ->, ., ::, []) */
+/* 让 C++ 的灵魂（指针）在黑暗中清晰可见 */
+.token.operator, .cm-operator, .token.punctuation, .cm-punctuation {
+    color: #e0d1b3 !important; /* 象牙白/浅米色，高对比度 */
+    font-weight: 600 !important;
 }
 
-/* C++ 字符串与字符： "text", 'a' */
-.token.string, .token.char, .cm-string {
-    color: #7a8266 !important; /* 枯草绿，低饱和度不刺眼 */
+/* 函数与逻辑方法：trap, addTwoNumbers, push_back, main */
+.token.function, .cm-function, .cm-variable-2 {
+    color: #a67c52 !important; /* 暗橙金，模拟陈年墨水 */
 }
 
-/* C++ 数字与常量： 1024, 0xff, nullptr, true, false */
-.token.number, .token.boolean, .token.constant, .cm-number {
-    color: #9a8370 !important; /* 陶土色 */
+/* 字符串与单个字符： "text", 'a' */
+.token.string, .cm-string, .token.char {
+    color: #7a8266 !important; /* 灰绿色，极其柔和 */
 }
 
-/* C++ 注释： // 或 /* */
+/* 数字与布尔常量：0, 10, nullptr, true, false */
+.token.number, .token.boolean, .cm-number, .token.constant {
+    color: #9a8370 !important; /* 陶土棕 */
+}
+
+/* 注释：所有的算法逻辑说明 */
 .token.comment, .cm-comment {
-    color: #5c5850 !important; /* 磨损灰，降低视觉优先级 */
+    color: #5c5850 !important; /* 磨损灰，低调且专业 */
     font-style: italic !important;
 }
 
-/* 4. 代码块右上角语言标签提示 */
-.markdown-rendered pre::before {
-    content: attr(data-language);
-    position: absolute;
-    top: 5px;
-    right: 12px;
-    color: rgba(178, 148, 90, 0.4) !important;
-    font-size: 0.75em;
-    font-family: serif !important;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}*/
+/* 3. 特殊符号增强：括号对 */
+.token.namespace, .token.tag {
+    color: #8c7b6a !important;
+}
 
-
-
+/* 4. 代码行高与字体 */
+.markdown-rendered pre code {
+    font-family: 'Fira Code', 'Courier New', monospace !important;
+    line-height: 1.6 !important;
+    font-size: 0.95em !important;
+}
