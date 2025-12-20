@@ -14,15 +14,15 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/6.双指针.md": {
-    "scroll": 442.71491174530564,
+    "scroll": 259.55810065018505,
     "cursor": {
       "from": {
-        "line": 391,
-        "ch": 30
+        "line": 288,
+        "ch": 13
       },
       "to": {
-        "line": 391,
-        "ch": 30
+        "line": 288,
+        "ch": 13
       }
     },
     "expandedKeys": [
@@ -337,6 +337,20 @@
       "to": {
         "line": 0,
         "ch": 131
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/10.栈.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 137
+      },
+      "to": {
+        "line": 6,
+        "ch": 137
       }
     },
     "expandedKeys": []
