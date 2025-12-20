@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "数据结构与算法/基础算法/6.双指针.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -186,12 +186,12 @@
   },
   "active": "16857533225184a1",
   "lastOpenFiles": [
-    "CSS代码风格测试.md",
+    "数据结构与算法/基础算法/7.单调性.md",
     "数据结构与算法/基础算法/6.双指针.md",
+    "CSS代码风格测试.md",
     "数据结构与算法/基础算法/10.栈.md",
     "数据结构与算法/基础算法/9.队列.md",
     "数据结构与算法/基础算法/8.链表.md",
-    "数据结构与算法/基础算法/7.单调性.md",
     "数据结构与算法/数据结构.md",
     "数据结构与算法/基础算法/6.尺取法（滑动窗口）、双指针.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
