@@ -4,14 +4,13 @@
   "baseFontSize": 19,
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "暗金复古-代码块",
     "暗金复古-一级标题自动补序",
     "DarkAcademic",
     "DarkAcademicAll",
-    "暗金复古-表格增强与滑动适配",
-    "暗金复古-图片美化与交互动画",
+    "Callout特殊样式强化",
     "暗金复古-荧光高亮与辅助符弱化",
-    "Callout特殊样式强化"
+    "暗金复古-图片美化与交互动画",
+    "暗金复古-表格增强与滑动适配"
   ],
   "nativeMenus": false,
   "textFontFamily": "Georgia,Noto Serif SC"

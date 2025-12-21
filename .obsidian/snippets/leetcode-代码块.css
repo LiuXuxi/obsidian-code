@@ -1,0 +1,56 @@
+/* ============================================================
+   💻 LeetCode Dark Mode Theme for Obsidian
+   ============================================================ */
+
+/* 1. 代码块容器：深灰背景与现代圆角 */
+.markdown-rendered pre, 
+.markdown-source-view.mod-cm6 .cm-content pre {
+    background-color: #282828 !important; /* LeetCode 经典的背景深灰 */
+    border: 1px solid #3e3e3e !important;
+    border-left: none !important; /* 移除复古金边 */
+    border-radius: 8px !important;
+    padding: 1.2em !important;
+}
+
+/* 2. LeetCode 语法高亮映射 */
+
+/* 关键字：if, for, while, return, class, public */
+.token.keyword, .cm-keyword {
+    color: #ff5d5b !important; /* 亮红色 */
+}
+
+/* 基础内置类型：int, bool, char, void, size_t */
+.token.builtin, .cm-type.cm-builtin {
+    color: #5bb3ff !important; /* 亮蓝色 */
+}
+
+/* 容器与自定义类名：vector, string, ListNode, Solution */
+.token.class-name, .cm-type {
+    color: #26dbd1 !important; /* 青绿色/蓝绿色 */
+}
+
+/* 函数名：trap, addTwoNumbers, push_back */
+.token.function, .cm-function {
+    color: #61afef !important; /* 柔和的天蓝色 */
+}
+
+/* 操作符与标点：*, &, ->, ==, +, [] */
+.token.operator, .cm-operator, .token.punctuation, .cm-punctuation {
+    color: #abb2bf !important; /* 浅灰色/银白 */
+}
+
+/* 数字：0, 10, 0xff */
+.token.number, .cm-number {
+    color: #d19a66 !important; /* 浅橙色 */
+}
+
+/* 字符串 */
+.token.string, .cm-string {
+    color: #98c379 !important; /* 浅草绿 */
+}
+
+/* 注释 */
+.token.comment, .cm-comment {
+    color: #5c6370 !important; /* 深灰色 */
+    font-style: italic !important;
+}
