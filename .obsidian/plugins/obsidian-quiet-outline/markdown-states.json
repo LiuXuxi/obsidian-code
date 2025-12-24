@@ -1,17 +1,20 @@
 {
   "数据结构与算法/基础算法/5.差分.md": {
-    "scroll": 117.10286966959636,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 130,
-        "ch": 0
+        "line": 16,
+        "ch": 47
       },
       "to": {
-        "line": 130,
-        "ch": 0
+        "line": 16,
+        "ch": 101
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-15",
+      "item-2-12"
+    ]
   },
   "数据结构与算法/基础算法/6.双指针.md": {
     "scroll": 0,
@@ -381,6 +384,132 @@
       },
       "to": {
         "line": 116,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/3.分治.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/2.递归.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/8.链表.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/8.链表.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 137
+      },
+      "to": {
+        "line": 6,
+        "ch": 137
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/9.队列.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/10.栈.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/1.链表.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/2.链表.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/1.队列.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
         "ch": 0
       }
     },
