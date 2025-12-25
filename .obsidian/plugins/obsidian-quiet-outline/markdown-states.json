@@ -516,17 +516,20 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/8.二分搜索.md": {
-    "scroll": 0,
+    "scroll": 14.01911053137059,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 32,
+        "ch": 94
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 32,
+        "ch": 94
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
   }
 }
