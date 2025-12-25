@@ -20,18 +20,23 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 153,
+        "line": 18,
         "ch": 0
       },
       "to": {
-        "line": 153,
+        "line": 18,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-1-4",
-      "item-2-5"
+      "item-3-62",
+      "item-2-52",
+      "item-1-49",
+      "item-4-6",
+      "item-3-2",
+      "item-2-1",
+      "item-4-3"
     ]
   },
   "CSS代码风格测试.md": {
@@ -504,22 +509,23 @@
     ]
   },
   "数据结构与算法/基础算法/8.二分搜索.md": {
-    "scroll": 0,
+    "scroll": 137.98611082854094,
     "cursor": {
       "from": {
-        "line": 141,
-        "ch": 0
+        "line": 153,
+        "ch": 7
       },
       "to": {
-        "line": 141,
-        "ch": 0
+        "line": 153,
+        "ch": 2
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-2-2",
       "item-1-4",
-      "item-2-5"
+      "item-2-5",
+      "item-3-8"
     ]
   }
 }
