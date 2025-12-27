@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git分布式版本控制工具的学习使用.md",
+                "file": "数据结构与算法/基础算法/8.二分搜索.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git分布式版本控制工具的学习使用"
+              "title": "8.二分搜索"
             }
           }
         ]
@@ -186,6 +186,7 @@
   },
   "active": "16857533225184a1",
   "lastOpenFiles": [
+    "Git/Git分布式版本控制工具的学习使用.md",
     "数据结构与算法/基础算法/8.二分搜索.md",
     "未命名 1.base",
     "未命名.md",
