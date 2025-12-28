@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -167,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 282.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,7 +185,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "16857533225184a1",
+  "active": "fc494afcf0c86134",
   "lastOpenFiles": [
     "Git/Git分布式版本控制工具的学习使用.md",
     "数据结构与算法/基础算法/8.二分搜索.md",
