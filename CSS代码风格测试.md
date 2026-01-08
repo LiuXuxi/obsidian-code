@@ -198,12 +198,6 @@ int div(int a, int b) {
 
 [29. 两数相除 - 力扣（LeetCode）](https://leetcode.cn/problems/divide-two-integers/description/)
 
->[!WARNING] 在cpp中由于`INT_MIN`不能通过`-INT_MIN`得到它的相反数，所以不能直接带入`div()`中进行运算，需要对含有`INT_MIN`的情况进行分类讨论
-> 
->  1. `a`和`b`都为`INT_MIN `，相除为`1`
-> 
-> 2. ` a` 为` INT_MIN`，相除
-
 ```cpp
 class Solution {
 public:
@@ -255,20 +249,13 @@ public:
 
 
 public:
-    int divide(int dividend, int divisor) {
-        if (dividend == INT_MIN && divisor == INT_MIN)return 1;
-        else if (dividend == INT_MIN && divisor != INT_MIN)return 0;
-        else if (dividend != INT_MIN && dividend != INT_MIN)return div(dividend, divisor);
-        else {
-            dividend = add(dividend, divisor > 0 ? divisor : neg(divisor));
-            int ans = div(dividend, divisor);
-            int offset = divisor > 0 ? neg(1) : 1;
-            return add(ans, offset);
-        }
-    }
+    
 };
 ```
 
+```
+
+```
 ## 2. 位图 (BitMap)
 
 ### 2.1 什么是位图
