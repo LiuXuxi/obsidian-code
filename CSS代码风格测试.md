@@ -176,7 +176,7 @@ int multiply(int a, int b) {
     
 
 ```cpp
-// 简化版逻辑：仅处理正数
+// 简化版：缺少一定边界讨论
 int div(int a, int b) {
     bool sign = (a > 0) ^ (b > 0) ? false : true;
     int ans = 0;
@@ -192,7 +192,82 @@ int div(int a, int b) {
 }
 ```
 
+---
+
+### 1.5运算实例
+
 [29. 两数相除 - 力扣（LeetCode）](https://leetcode.cn/problems/divide-two-integers/description/)
+
+>[!WARNING] 在cpp中由于`INT_MIN`不能通过`-INT_MIN`得到它的相反数，所以不能直接带入`div()`中进行运算，需要对含有`INT_MIN`的情况进行分类讨论
+> 
+>  1. `a`和`b`都为`INT_MIN `，相除为`1`
+> 
+> 2. ` a` 为` INT_MIN`，相除
+
+```cpp
+class Solution {
+public:
+    int add(int a, int b) {
+        int ans = 0;
+        while (b) {
+            ans = (a ^ b);
+            b = ((a & b) << 1);
+            a = ans;
+        }
+        return ans;
+    }
+
+    int neg(int n) { return add(~n, 1); }
+
+    int minus(int a,int b) {
+        return add(a, neg(b));
+    }
+
+    int multiply(int a, int b) {
+        bool sign = (a > 0) ^ (b > 0) ? false : true;
+        int ans = 0;
+        a = a > 0 ? a : neg(a);
+        b = b > 0 ? b : neg(b);
+        while (b) {
+            if ((b & 1) != 0) {
+                ans = add(ans, a);
+            }
+            a <<= 1;
+            b >>= 1;
+        }
+        return sign ? ans : neg(ans);
+    }
+
+    int div(int a, int b) {
+        bool sign = (a > 0) ^ (b > 0) ? false : true;
+        int ans = 0;
+        a = a > 0 ? a : neg(a);
+        b = b > 0 ? b : neg(b);
+        for (int i = 30; i >= 0; i = minus(i, 1)) {
+            if ((a >> i) >= b) {
+                ans |= (1 << i);
+                a = minus(a, b << i);
+            }
+        }
+        return sign ? ans: neg(ans);
+    }
+
+
+
+public:
+    int divide(int dividend, int divisor) {
+        if (dividend == INT_MIN && divisor == INT_MIN)return 1;
+        else if (dividend == INT_MIN && divisor != INT_MIN)return 0;
+        else if (dividend != INT_MIN && dividend != INT_MIN)return div(dividend, divisor);
+        else {
+            dividend = add(dividend, divisor > 0 ? divisor : neg(divisor));
+            int ans = div(dividend, divisor);
+            int offset = divisor > 0 ? neg(1) : 1;
+            return add(ans, offset);
+        }
+    }
+};
+```
 
 ## 2. 位图 (BitMap)
 
