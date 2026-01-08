@@ -249,13 +249,49 @@ public:
 
 
 public:
+    int divide(int dividend, int divisor) {
+    // 边界情况 1：被除数和除数都是最小负数，结果为 1
+    if (dividend == INT_MIN && divisor == INT_MIN) 
+        return 1;
     
+    // 边界情况 2：INT_MIN / -1 会导致溢出（结果应该是 2^31，但 int 最大只能表示 2^31 - 1）
+    // 根据题目常规要求，返回 INT_MAX
+    else if (dividend == INT_MIN && divisor == -1) 
+        return INT_MAX;
+    
+    // 边界情况 3：除数是 INT_MIN，而被除数不是。
+    // 因为任何比 INT_MIN 绝对值小的数除以 INT_MIN，整数部分结果都是 0
+    else if (dividend != INT_MIN && divisor == INT_MIN) 
+        return 0;
+    
+    // 核心逻辑 A：如果被除数不是 INT_MIN，可以直接调用自定义的 div 函数进行位运算除法
+    // 注：此处代码原句为 dividend != INT_MIN && dividend != INT_MIN，疑似笔误，应为 divisor != INT_MIN
+    else if (dividend != INT_MIN) 
+        return div(dividend, divisor);
+    
+    // 核心逻辑 B：处理被除数恰好等于 INT_MIN 的情况
+    // 为了防止直接取反导致溢出，这里采用“先补偿、再计算”策略：
+    else {
+        // 1. 先将被除数靠近 0 一点点。
+        // 如果除数是正数，就加上它；如果是负数，就减去它（即加上其绝对值）
+        // 这样做的目的是让 dividend 退出 INT_MIN 状态，从而能安全进入 div 函数
+        dividend = add(dividend, divisor > 0 ? divisor : neg(divisor));
+        
+        // 2. 计算补偿后的商
+        int ans = div(dividend, divisor);
+        
+        // 3. 修正偏移量。
+        // 因为前面手动将被除数靠近了 0（相当于少算了一次除数），所以结果需要补上这一次
+        // 如果除数是正数，由于被除数是负的，商应该减 1；如果除数是负数，商应该加 1
+        int offset = divisor > 0 ? neg(1) : 1;
+        
+        return add(ans, offset);
+    }
+}
 };
 ```
 
-```
 
-```
 ## 2. 位图 (BitMap)
 
 ### 2.1 什么是位图
