@@ -619,12 +619,12 @@
     "scroll": 338.57715945773657,
     "cursor": {
       "from": {
-        "line": 345,
-        "ch": 83
+        "line": 347,
+        "ch": 24
       },
       "to": {
-        "line": 345,
-        "ch": 83
+        "line": 347,
+        "ch": 24
       }
     },
     "expandedKeys": [
