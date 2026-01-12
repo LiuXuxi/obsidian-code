@@ -638,5 +638,50 @@
       "item-4-20",
       "item-4-23"
     ]
+  },
+  "C语言/C语言进阶笔记.md": {
+    "scroll": 20.393900045735364,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 23
+      },
+      "to": {
+        "line": 21,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-3-4",
+      "item-2-3",
+      "item-4-6",
+      "item-3-9",
+      "item-2-12",
+      "item-2-15"
+    ]
+  },
+  "C语言/C语言使用细节.md": {
+    "scroll": 82.64747774480712,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-1-0",
+      "item-3-3",
+      "item-1-9",
+      "item-2-10",
+      "item-2-14",
+      "item-1-18"
+    ]
   }
 }
