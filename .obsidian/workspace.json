@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C语言/C语言进阶笔记.md",
+                "file": "数据结构与算法/基础算法/8.二分搜索.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C语言进阶笔记"
-            }
-          },
-          {
-            "id": "fb187d37bc210be2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.4"
+              "title": "8.二分搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,10 +184,12 @@
       "i18n:I18N": false
     }
   },
-  "active": "fb187d37bc210be2",
+  "active": "16857533225184a1",
   "lastOpenFiles": [
-    "C语言/C语言使用细节.md",
+    "数据结构与算法/基础算法/6.双指针.md",
+    "数据结构与算法/基础算法/6.尺取法（滑动窗口）、双指针.md",
     "C语言/C语言进阶笔记.md",
+    "C语言/C语言使用细节.md",
     "数据结构与算法/基础算法/11.位运算.md",
     "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/10.对数器.md",
@@ -212,7 +201,6 @@
     "数据结构与算法/基础算法/4.前缀和.md",
     "Git/Git分布式版本控制工具的学习使用.md",
     "未命名 1.base",
-    "数据结构与算法/基础算法/6.双指针.md",
     "数据结构与算法/数据结构/1.队列.md",
     "未命名.base",
     "数据结构与算法/数据结构/2.链表.md",
@@ -236,7 +224,6 @@
     "数据结构与算法/基础算法/Google Gemini_files/m=_b,_tp",
     "数据结构与算法/基础算法/Google Gemini_files/m=hfcr",
     "Assets/Pictures/QQ_1766307192579.png",
-    "数据结构与算法/基础算法/6.尺取法（滑动窗口）、双指针.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Simplify.md",
