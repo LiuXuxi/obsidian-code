@@ -180,8 +180,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian-git:Open Git source control": false,
       "pkmer:Open Pkmer Market": false,
-      "copilot:Open Copilot Chat": false,
-      "i18n:I18N": false
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "16857533225184a1",
