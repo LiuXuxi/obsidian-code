@@ -628,12 +628,12 @@
     "scroll": 461.571854525773,
     "cursor": {
       "from": {
-        "line": 479,
-        "ch": 33
+        "line": 492,
+        "ch": 34
       },
       "to": {
-        "line": 479,
-        "ch": 33
+        "line": 492,
+        "ch": 34
       }
     },
     "expandedKeys": [
@@ -694,5 +694,47 @@
       "item-2-14",
       "item-1-18"
     ]
+  },
+  "数据结构与算法/数据结构/3.栈.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/数据结构/4.二叉树.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 95
+      },
+      "to": {
+        "line": 0,
+        "ch": 95
+      }
+    },
+    "expandedKeys": []
   }
 }
