@@ -750,5 +750,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/12.最大公约数和同余原理.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 60
+      },
+      "to": {
+        "line": 2,
+        "ch": 60
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
