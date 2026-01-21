@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/12.最大公约数和同余原理.md",
+                "file": "数据结构与算法/基础算法/对数器打表找规律.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12.最大公约数和同余原理"
+              "title": "对数器打表找规律"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "16857533225184a1",
   "lastOpenFiles": [
-    "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/12.最大公约数和同余原理.md",
+    "数据结构与算法/基础算法/对数器打表找规律.md",
+    "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/11.位运算.md",
     "数据结构与算法/基础算法/10.对数器.md",
     "数据结构与算法/数据结构/4.二叉树.md",
@@ -227,7 +228,6 @@
     "Assets/Pictures/QQ_1766307192579.png",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
     "Assets/Pictures/Pasted image 20251217193406.png",
     "Assets/Pictures/Pasted image 20251117154301.png",
     "Assets/Pictures/Pasted image 20251114143126.png"
