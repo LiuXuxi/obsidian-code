@@ -755,12 +755,12 @@
     "scroll": 93.34317122565375,
     "cursor": {
       "from": {
-        "line": 106,
-        "ch": 4
+        "line": 102,
+        "ch": 0
       },
       "to": {
-        "line": 106,
-        "ch": 4
+        "line": 102,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -780,7 +780,8 @@
       "item-3-27",
       "item-2-3",
       "item-1-5",
-      "item-2-10"
+      "item-2-10",
+      "item-2-6"
     ]
   }
 }
