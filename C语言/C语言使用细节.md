@@ -97,7 +97,7 @@ printf("|%*.*f|\n", width, precision, value); // 输出 "|    3.14|"
 
 `qsort`函数是C标准库中提供的快速排序实现，它是一个高效且通用的排序函数。
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>//qsort函数在此声明
 #include <string.h>
