@@ -410,22 +410,24 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/2.递归.md": {
-    "scroll": 244.04005871218646,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 264,
-        "ch": 3
+        "line": 346,
+        "ch": 0
       },
       "to": {
-        "line": 264,
-        "ch": 3
+        "line": 346,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-3-4",
-      "item-3-7",
-      "item-3-11"
+      "item-3-3",
+      "item-3-6",
+      "item-3-10",
+      "item-3-15",
+      "item-1-25",
+      "item-2-26"
     ]
   },
   "数据结构与算法/基础算法/8.链表.md": {
