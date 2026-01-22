@@ -410,7 +410,7 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/2.递归.md": {
-    "scroll": 640.7596722961102,
+    "scroll": 644.1344796639902,
     "cursor": {
       "from": {
         "line": 680,
@@ -535,7 +535,7 @@
     ]
   },
   "数据结构与算法/基础算法/8.二分搜索.md": {
-    "scroll": 1268.690035058077,
+    "scroll": 1266.9673168041088,
     "cursor": {
       "from": {
         "line": 1284,
@@ -592,7 +592,7 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/9.异或运算.md": {
-    "scroll": 559.0938872483672,
+    "scroll": 557.8090823541874,
     "cursor": {
       "from": {
         "line": 568,
@@ -634,7 +634,7 @@
     ]
   },
   "数据结构与算法/基础算法/11.位运算.md": {
-    "scroll": 360.26587269293566,
+    "scroll": 359.4426942855593,
     "cursor": {
       "from": {
         "line": 339,
@@ -659,7 +659,7 @@
     ]
   },
   "C语言/C语言进阶笔记.md": {
-    "scroll": 35.959887686799924,
+    "scroll": 35.955252360009595,
     "cursor": {
       "from": {
         "line": 21,
@@ -839,6 +839,90 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/13.对数器打表找规律.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "C++/C++基础笔记/7.面向对象编程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "C++/C++基础笔记/6.位运算.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "C++/C++基础笔记/5.预处理命令.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "C++/C++基础笔记/4.指针.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "C++/C++基础笔记/3.变量作用域与命名空间.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "C++/C++基础笔记/11.文件操作.md": {
     "scroll": 0,
     "cursor": {
       "from": {
