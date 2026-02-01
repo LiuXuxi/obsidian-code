@@ -11,12 +11,14 @@
             "id": "16857533225184a1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Linux/Linux操作系统.pdf"
+                "file": "数据结构与算法/基础算法/2.递归.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Linux操作系统"
+              "icon": "lucide-file",
+              "title": "2.递归"
             }
           }
         ]
@@ -181,25 +183,25 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fc494afcf0c86134",
+  "active": "16857533225184a1",
   "lastOpenFiles": [
+    "数据结构与算法/基础算法/14.前缀树与构建前缀信息.md",
+    "数据结构与算法/基础算法/13.对数器打表找规律.md",
+    "数据结构与算法/基础算法/12.最大公约数和同余原理.md",
+    "数据结构与算法/基础算法/10.对数器.md",
+    "Linux/Linux操作系统.pdf",
     "Linux/关于Linux操作系统无法联网等几个常见问题的解决方案.pdf",
     "数据结构与算法/基础算法/6.双指针.md",
-    "Linux/Linux操作系统.pdf",
     "Linux/Linux原理",
     "操作系统/操作系统原理",
     "操作系统",
     "Linux",
     "数据结构与算法/基础算法/7.单调性.md",
-    "数据结构与算法/基础算法/14.前缀树与构建前缀信息.md",
     "数据结构与算法/基础算法/4.前缀和.md",
     "C++/C++其他使用细节.md",
     "C++/C++基础笔记/7.面向对象编程.md",
-    "数据结构与算法/基础算法/10.对数器.md",
     "数据结构与算法/基础算法/9.异或运算.md",
     "数据结构与算法/基础算法/2.递归.md",
-    "数据结构与算法/基础算法/13.对数器打表找规律.md",
-    "数据结构与算法/基础算法/12.最大公约数和同余原理.md",
     "数据结构与算法/基础算法/11.位运算.md",
     "C语言/C语言使用细节.md",
     "C语言/C语言进阶笔记.md",
@@ -224,7 +226,6 @@
     "数据结构与算法/基础算法/Google Gemini_files/unnamed.jpg",
     "数据结构与算法/基础算法/Google Gemini_files/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
     "数据结构与算法/基础算法/Google Gemini_files/RotateCookiesPage.html",
-    "数据结构与算法/基础算法/Google Gemini_files/saved_resource.html",
     "Assets/Pictures/QQ_1766307192579.png",
     "Assets/Pictures/Pasted image 20251217193406.png",
     "Assets/Pictures/Pasted image 20251117154301.png",
