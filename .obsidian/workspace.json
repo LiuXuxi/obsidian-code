@@ -25,12 +25,14 @@
             "id": "d019406bd9ab951a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Linux/关于Linux操作系统无法联网等几个常见问题的解决方案.pdf"
+                "file": "数据结构与算法/基础算法/17.并查集.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "关于Linux操作系统无法联网等几个常见问题的解决方案"
+              "icon": "lucide-file",
+              "title": "17.并查集"
             }
           }
         ],
@@ -198,12 +200,13 @@
   },
   "active": "d019406bd9ab951a",
   "lastOpenFiles": [
+    "数据结构与算法/基础算法/16.单调队列.md",
+    "数据结构与算法/基础算法/17.并查集.md",
+    "Linux/关于Linux操作系统无法联网等几个常见问题的解决方案.pdf",
     "Linux/Linux操作系统.pdf",
     "数据结构与算法/基础算法/14.前缀树与构建前缀信息.md",
     "数据结构与算法/基础算法/15.单调栈.md",
-    "数据结构与算法/基础算法/16.单调队列.md",
     "数据结构与算法/数据结构/3.栈.md",
-    "Linux/关于Linux操作系统无法联网等几个常见问题的解决方案.pdf",
     "Assets/Pictures/Pasted image 20260205200732.png",
     "Assets/Pictures/Pasted image 20260204151233.png",
     "数据结构与算法/基础算法/2.递归.md",
