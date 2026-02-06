@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "16.单调队列"
             }
+          },
+          {
+            "id": "d019406bd9ab951a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +196,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "16857533225184a1",
+  "active": "d019406bd9ab951a",
   "lastOpenFiles": [
     "数据结构与算法/基础算法/14.前缀树与构建前缀信息.md",
     "数据结构与算法/基础算法/15.单调栈.md",
