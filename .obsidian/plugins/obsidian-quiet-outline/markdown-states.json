@@ -1042,11 +1042,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 72
+        "ch": 36
       },
       "to": {
         "line": 0,
-        "ch": 72
+        "ch": 36
       }
     },
     "expandedKeys": []
