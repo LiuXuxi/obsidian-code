@@ -508,7 +508,7 @@ str=NULL;
 ![[Pasted image 20251005201847.png]]
 ![[Pasted image 20251005201911.png]]
 ![[Pasted image 20251005201752.png]]
-# 6.知识串讲（海牛直播）
+# 6.知识串讲
 ## 6.1代码可移植性
 - 工程上避免直接使用int long这样的类型，<font color=red>同样数据类型在不同系统不同编译器内存大小不一样</font>
 - ```
