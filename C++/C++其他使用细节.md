@@ -1490,7 +1490,7 @@ std::vector<P> a = {{3, 2}, {1, 5}, {1, 3}, {2, 4}};
 priority_queue<int, vector<int>, greater<>> q;
 ```
 
-## ​**1. `priority_queue`**​
+## ​**1. `priority_queue`
 
 - C++ STL 中的**优先队列容器适配器**​
     
