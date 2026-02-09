@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C语言/C语言进阶笔记.md",
+                "file": "操作系统/操作系统原理/2.进程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C语言进阶笔记"
+              "title": "2.进程"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -181,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,6 +202,9 @@
   },
   "active": "d019406bd9ab951a",
   "lastOpenFiles": [
+    "操作系统/操作系统原理/1.总览.md",
+    "操作系统/操作系统原理/2.进程.md",
+    "C语言/C语言进阶笔记.md",
     "C++/C++基础笔记/2.函数.md",
     "C++/C++基础笔记/1.一维数组.md",
     "C++/C++基础笔记/12.C++11新特性/2.auto.md",
@@ -222,7 +227,6 @@
     "数据结构与算法/基础算法/3.分治.md",
     "数据结构与算法/基础算法/2.递归.md",
     "数据结构与算法/基础算法/1.枚举&模拟.md",
-    "操作系统/操作系统原理/未命名.md",
     "Assets/Pictures/Pasted image 20260207090246.png",
     "Assets/Pictures/Pasted image 20260207085516.png",
     "Assets/Pictures/Pasted image 20260207083112.png",
@@ -238,8 +242,6 @@
     "操作系统/操作系统原理",
     "操作系统",
     "Linux",
-    "C++/C++其他使用细节.md",
-    "C++/C++基础笔记/7.面向对象编程.md",
     "未命名 1.base",
     "未命名.base",
     "数据结构与算法/数据结构",

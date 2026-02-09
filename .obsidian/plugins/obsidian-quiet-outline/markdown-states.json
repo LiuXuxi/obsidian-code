@@ -1047,11 +1047,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 36
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 72
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1125,5 +1125,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "操作系统/操作系统原理/2.进程.md": {
+    "scroll": 3.2399690416124134,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 4
+      },
+      "to": {
+        "line": 10,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
