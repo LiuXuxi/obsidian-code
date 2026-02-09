@@ -1127,15 +1127,31 @@
     "expandedKeys": []
   },
   "操作系统/操作系统原理/2.进程.md": {
-    "scroll": 8.650848671242043,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 3
+        "line": 21,
+        "ch": 36
       },
       "to": {
-        "line": 12,
-        "ch": 3
+        "line": 21,
+        "ch": 36
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "操作系统/操作系统原理/2.进程简介.md": {
+    "scroll": 45.696065180542526,
+    "cursor": {
+      "from": {
+        "line": 47,
+        "ch": 0
+      },
+      "to": {
+        "line": 47,
+        "ch": 0
       }
     },
     "expandedKeys": [
