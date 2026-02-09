@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/20.拓扑排序.md",
+                "file": "数据结构与算法/基础算法/19.链式前向星.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20.拓扑排序"
+              "title": "19.链式前向星"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,9 +185,9 @@
   },
   "active": "16857533225184a1",
   "lastOpenFiles": [
-    "C++/C++其他使用细节.md",
     "数据结构与算法/基础算法/20.拓扑排序.md",
     "数据结构与算法/基础算法/19.链式前向星.md",
+    "C++/C++其他使用细节.md",
     "操作系统/操作系统原理/2.进程简介.md",
     "数据结构与算法/基础算法/16.单调队列.md",
     "Assets/Pictures/Pasted image 20260209093804.png",
