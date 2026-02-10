@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/宽度优先遍历.md",
+                "file": "操作系统/操作系统原理/进程和线程/2.进程简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "宽度优先遍历"
+              "title": "2.进程简介"
             }
           }
         ]
@@ -185,26 +185,25 @@
   },
   "active": "16857533225184a1",
   "lastOpenFiles": [
+    "操作系统/操作系统原理/进程和线程/2.进程切换和线程调度.md",
+    "操作系统/操作系统原理/进程和线程/2.进程简介.md",
+    "操作系统/操作系统原理/1.总览.md",
+    "数据结构与算法/基础算法/宽度优先遍历.md",
     "Assets/Pictures/Pasted image 20260210181919.png",
     "C++/C++其他使用细节.md",
-    "数据结构与算法/基础算法/宽度优先遍历.md",
     "Assets/Pictures/Pasted image 20260210163031.png",
     "Assets/Pictures/Pasted image 20260210162551.png",
     "Assets/Pictures/Pasted image 20260210162146.png",
     "Assets/Pictures/Pasted image 20260210161750.png",
     "Assets/Pictures/Pasted image 20260210140128.png",
     "Assets/Pictures/Pasted image 20260210140113.png",
-    "操作系统/操作系统原理/进程和线程/2.进程切换和线程调度.md",
-    "操作系统/操作系统原理/进程和线程/2.进程简介.md",
     "操作系统/操作系统原理/进程和线程",
     "数据结构与算法/基础算法/20.拓扑排序.md",
     "数据结构与算法/基础算法/19.链式前向星.md",
     "Assets/Pictures/Pasted image 20260209182622.png",
-    "操作系统/操作系统原理/1.总览.md",
     "数据结构与算法/基础算法/16.单调队列.md",
     "Assets/Pictures/Pasted image 20260209093804.png",
     "Assets/Pictures/Pasted image 20260209093638.png",
-    "Assets/Pictures/Pasted image 20260209093258.png",
     "C语言/C语言进阶笔记.md",
     "C++/C++基础笔记/2.函数.md",
     "C++/C++基础笔记/1.一维数组.md",
