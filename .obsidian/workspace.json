@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/宽度优先遍历.md",
+                "file": "C++/C++其他使用细节.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "宽度优先遍历"
+              "title": "C++其他使用细节"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -186,6 +185,7 @@
   },
   "active": "16857533225184a1",
   "lastOpenFiles": [
+    "数据结构与算法/基础算法/宽度优先遍历.md",
     "Assets/Pictures/Pasted image 20260210163031.png",
     "Assets/Pictures/Pasted image 20260210162551.png",
     "Assets/Pictures/Pasted image 20260210162146.png",
@@ -193,7 +193,6 @@
     "Assets/Pictures/Pasted image 20260210140128.png",
     "Assets/Pictures/Pasted image 20260210140113.png",
     "操作系统/操作系统原理/进程和线程/2.进程切换和线程调度.md",
-    "数据结构与算法/基础算法/宽度优先遍历.md",
     "操作系统/操作系统原理/进程和线程/2.进程简介.md",
     "操作系统/操作系统原理/进程和线程",
     "数据结构与算法/基础算法/20.拓扑排序.md",
@@ -205,7 +204,6 @@
     "Assets/Pictures/Pasted image 20260209093804.png",
     "Assets/Pictures/Pasted image 20260209093638.png",
     "Assets/Pictures/Pasted image 20260209093258.png",
-    "Assets/Pictures/Pasted image 20260209092840.png",
     "C语言/C语言进阶笔记.md",
     "C++/C++基础笔记/2.函数.md",
     "C++/C++基础笔记/1.一维数组.md",
