@@ -1291,17 +1291,19 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/宽度优先遍历.md": {
-    "scroll": 246.33377866391783,
+    "scroll": 311.4572285647115,
     "cursor": {
       "from": {
-        "line": 266,
-        "ch": 3
+        "line": 334,
+        "ch": 0
       },
       "to": {
-        "line": 266,
-        "ch": 3
+        "line": 334,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   }
 }
