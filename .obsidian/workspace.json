@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -187,6 +186,8 @@
   },
   "active": "16857533225184a1",
   "lastOpenFiles": [
+    "操作系统/操作系统原理/进程和线程/2.进程概念.md",
+    "操作系统/操作系统原理/进程和线程/1.进程概念.md",
     "Assets/Pictures/Pasted image 20260210211714.png",
     "Assets/Pictures/Pasted image 20260210211420.png",
     "Assets/Pictures/Pasted image 20260210211018.png",
@@ -197,12 +198,9 @@
     "Assets/Pictures/Pasted image 20260210210325.png",
     "Assets/Pictures/Pasted image 20260210210257.png",
     "Assets/Pictures/Pasted image 20260210210235.png",
-    "操作系统/操作系统原理/进程和线程/2.进程概念.md",
-    "操作系统/操作系统原理/进程和线程/1.进程概念.md",
     "操作系统/操作系统原理/进程和线程/2.线程概念.md",
     "操作系统/操作系统原理/1.总览.md",
     "数据结构与算法/基础算法/宽度优先遍历.md",
-    "Assets/Pictures/Pasted image 20260210181919.png",
     "C++/C++其他使用细节.md",
     "操作系统/操作系统原理/进程和线程",
     "数据结构与算法/基础算法/20.拓扑排序.md",
