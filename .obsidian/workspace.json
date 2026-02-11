@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/22.最小生成树.md",
+                "file": "操作系统/操作系统原理/进程和线程/1.进程概念.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "22.最小生成树"
+              "title": "1.进程概念"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -186,8 +187,8 @@
   },
   "active": "3861aee9d9195369",
   "lastOpenFiles": [
-    "数据结构与算法/基础算法/19.链式前向星.md",
     "数据结构与算法/基础算法/22.最小生成树.md",
+    "数据结构与算法/基础算法/19.链式前向星.md",
     "数据结构与算法/基础算法/21.宽度优先遍历.md",
     "Assets/Pictures/Pasted image 20260211135453.png",
     "Assets/Pictures/Pasted image 20260211133252.png",
