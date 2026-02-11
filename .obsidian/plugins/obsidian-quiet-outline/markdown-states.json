@@ -1191,15 +1191,15 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/19.链式前向星.md": {
-    "scroll": 39.381202795788454,
+    "scroll": 6.831027907561584,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 31
+        "line": 63,
+        "ch": 0
       },
       "to": {
-        "line": 30,
-        "ch": 31
+        "line": 63,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1368,6 +1368,20 @@
       "to": {
         "line": 70,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/22.最小生成树.md": {
+    "scroll": 16.318783022649164,
+    "cursor": {
+      "from": {
+        "line": 71,
+        "ch": 62
+      },
+      "to": {
+        "line": 71,
+        "ch": 62
       }
     },
     "expandedKeys": []
