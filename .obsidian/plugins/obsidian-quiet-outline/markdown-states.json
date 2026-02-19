@@ -1373,7 +1373,7 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/22.最小生成树.md": {
-    "scroll": 15.91458842651644,
+    "scroll": 14.922901387117347,
     "cursor": {
       "from": {
         "line": 71,
@@ -1382,6 +1382,20 @@
       "to": {
         "line": 71,
         "ch": 62
+      }
+    },
+    "expandedKeys": []
+  },
+  "数据结构与算法/基础算法/23.Dijkstra算法.md": {
+    "scroll": 0.519033452841826,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 36
+      },
+      "to": {
+        "line": 2,
+        "ch": 36
       }
     },
     "expandedKeys": []
