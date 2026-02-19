@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/23.Dijkstra算法.md",
+                "file": "C++/C++其他使用细节.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "23.Dijkstra算法"
+              "title": "C++其他使用细节"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,9 +185,9 @@
   },
   "active": "3861aee9d9195369",
   "lastOpenFiles": [
+    "数据结构与算法/基础算法/23.Dijkstra算法.md",
     "数据结构与算法/基础算法/19.链式前向星.md",
     "数据结构与算法/基础算法/20.拓扑排序.md",
-    "数据结构与算法/基础算法/23.Dijkstra算法.md",
     "Assets/Pictures/Pasted image 20260219170130.png",
     "Assets/Pictures/Pasted image 20260219165537.png",
     "数据结构与算法/基础算法/22.最小生成树.md",
