@@ -156,7 +156,43 @@ int main(){
 
 ![[Pasted image 20260220180014.png]]
 
+[记录详情 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/record/263386037)
 
+```cpp
+#include<iostream>
+using namespace std;
+
+int n,m;
+int path[101];
+int grid[101][101];
+
+void Floyd(){
+    for(int bridge=1;bridge<=n;bridge++){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(grid[i][bridge]+grid[bridge][j]<grid[i][j]){
+                    grid[i][j]=grid[i][bridge]+grid[bridge][j];
+                }
+            }
+        }
+    }
+}
+
+int main(){
+    cin>>n>>m;
+    for(int i=1;i<=m;i++)cin>>path[i];
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            cin>>grid[i][j];
+        }
+    }
+    Floyd();
+    int ans=0;
+    for(int i=1;i<m;i++)ans+=grid[path[i]][path[i+1]];
+    cout<<ans<<endl;
+    return 0;
+}
+```
 
 # 3.Bellman-Ford
 
