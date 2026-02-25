@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS代码风格测试.md",
+                "file": "数据结构与算法/基础算法/25.贪心.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS代码风格测试"
+              "title": "25.贪心"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "52ce995579f6403b",
@@ -186,12 +187,12 @@
   },
   "active": "3861aee9d9195369",
   "lastOpenFiles": [
+    "CSS代码风格测试.md",
     "数据结构与算法/基础算法/25.贪心.md",
     "Assets/Pictures/Pasted image 20260224222119.png",
     "Assets/Pictures/Pasted image 20260224220744.png",
     "Assets/Pictures/Pasted image 20260224185924.png",
     "数据结构与算法/基础算法/2.递归.md",
-    "CSS代码风格测试.md",
     "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/9.异或运算.md",
     "数据结构与算法/基础算法/10.对数器.md",
