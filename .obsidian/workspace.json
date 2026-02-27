@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/质数判断、质因子分解、质数筛.md",
+                "file": "数据结构与算法/基础算法/27.快速幂、矩阵快速幂、两类问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "质数判断、质因子分解、质数筛"
+              "title": "27.快速幂、矩阵快速幂、两类问题"
             }
           }
         ]
@@ -187,12 +187,14 @@
   },
   "active": "3861aee9d9195369",
   "lastOpenFiles": [
+    "Assets/Pictures/Pasted image 20260227201735.png",
+    "数据结构与算法/基础算法/26.质数判断、质因子分解、质数筛.md",
+    "数据结构与算法/基础算法/27.快速幂、矩阵快速幂、两类问题.md",
     "Assets/Pictures/Pasted image 20260227153716.png",
     "Assets/Pictures/Pasted image 20260227144439.png",
     "Assets/Pictures/Pasted image 20260227143956.png",
     "Assets/Pictures/Pasted image 20260227143813.png",
     "数据结构与算法/基础算法/25.贪心.md",
-    "数据结构与算法/基础算法/质数判断、质因子分解、质数筛.md",
     "CSS代码风格测试.md",
     "Assets/Pictures/Pasted image 20260224222119.png",
     "Assets/Pictures/Pasted image 20260224220744.png",
@@ -213,7 +215,6 @@
     "数据结构与算法/基础算法/24.A星、Floyd、Bellman-Ford与SPFA.md",
     "Assets/Pictures/Pasted image 20260220180014.png",
     "数据结构与算法/基础算法/23.Dijkstra算法.md",
-    "Assets/Pictures/Pasted image 20260220150415.png",
     "C++/C++其他使用细节.md",
     "数据结构与算法/基础算法/19.链式前向星.md",
     "数据结构与算法/基础算法/20.拓扑排序.md",
@@ -222,7 +223,6 @@
     "数据结构与算法/基础算法/21.宽度优先遍历.md",
     "操作系统/操作系统原理/进程和线程/2.线程概念.md",
     "操作系统/操作系统原理/进程和线程/2.进程概念.md",
-    "操作系统/操作系统原理/1.总览.md",
     "操作系统/操作系统原理/进程和线程",
     "Linux/关于Linux操作系统无法联网等几个常见问题的解决方案.pdf",
     "Linux/Linux操作系统.pdf",

@@ -1429,7 +1429,7 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/质数判断、质因子分解、质数筛.md": {
-    "scroll": 117.32539544137968,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 141,
@@ -1443,5 +1443,19 @@
     "expandedKeys": [
       "item-1-0"
     ]
+  },
+  "数据结构与算法/基础算法/27.快速幂、矩阵快速幂、两类问题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
