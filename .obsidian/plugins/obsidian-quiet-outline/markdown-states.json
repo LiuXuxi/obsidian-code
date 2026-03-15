@@ -603,18 +603,20 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/4.前缀和.md": {
-    "scroll": 24.766826800237006,
+    "scroll": 29.19325709955289,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 4
+        "line": 33,
+        "ch": 8
       },
       "to": {
-        "line": 31,
-        "ch": 4
+        "line": 33,
+        "ch": 8
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1"
+    ]
   },
   "数据结构与算法/基础算法/9.异或运算.md": {
     "scroll": 543.8477167315494,
