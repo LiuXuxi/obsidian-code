@@ -390,18 +390,19 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/1.枚举&模拟.md": {
-    "scroll": 463.03514462425596,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 265,
-        "ch": 0
+        "line": 3,
+        "ch": 9
       },
       "to": {
-        "line": 265,
-        "ch": 0
+        "line": 3,
+        "ch": 9
       }
     },
     "expandedKeys": [
+      "item-1-1",
       "item-1-5"
     ]
   },
@@ -603,7 +604,7 @@
     "expandedKeys": []
   },
   "数据结构与算法/基础算法/4.前缀和.md": {
-    "scroll": 123.5000035984446,
+    "scroll": 125.13226719724348,
     "cursor": {
       "from": {
         "line": 137,
