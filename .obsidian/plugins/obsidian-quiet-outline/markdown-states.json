@@ -1545,17 +1545,19 @@
     "expandedKeys": []
   },
   "C++/C++进阶笔记/1.Linux基础.md": {
-    "scroll": 0,
+    "scroll": 25.975056412538972,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 11
+        "line": 43,
+        "ch": 3
       },
       "to": {
-        "line": 0,
-        "ch": 11
+        "line": 41,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
