@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/哈希表中二元组表示键值.md",
+                "file": "数据结构与算法/基础算法/4.前缀和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "哈希表中二元组表示键值"
+              "title": "4.前缀和"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "8d5ecf593d2d10b1",
   "lastOpenFiles": [
-    "数据结构与算法/基础算法/4.前缀和.md",
     "数据结构与算法/基础算法/哈希表中二元组表示键值.md",
+    "数据结构与算法/基础算法/4.前缀和.md",
     "数据结构与算法/基础算法/1.枚举&模拟.md",
     "Assets/Pictures/Pasted image 20260316202148.png",
     "Assets/Pictures/Pasted image 20260315131435.png",
