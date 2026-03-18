@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "6.双指针"
             }
-          },
-          {
-            "id": "2afc627c5973c01a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构与算法/基础算法/4.前缀和.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4.前缀和"
-            }
-          },
-          {
-            "id": "8d5ecf593d2d10b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构与算法/基础算法/6.双指针.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6.双指针"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "两数",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +74,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,15 +183,23 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8d5ecf593d2d10b1",
+  "active": "3861aee9d9195369",
   "lastOpenFiles": [
+    "未命名.base",
+    "CMake/未命名",
+    "CMake/01_CMake基础",
+    "CMake",
+    "未命名 1.base",
+    "未命名 2.base",
+    "CSS代码风格测试.md",
+    "数据结构与算法/基础算法/4.前缀和.md",
+    "数据结构与算法/基础算法/6.双指针.md",
     "C++/C++进阶笔记/1.Linux基础/1.静态库、动态库与第三方库.md",
     "C++/C++进阶笔记/1.Linux基础/2.MakeFile.md",
     "C++/C++进阶笔记/1.Linux基础.md",
     "C++/C++进阶笔记/1.Linux基础",
     "1.Linux基础",
     "Assets/Pictures/Pasted image 20260317212001.png",
-    "数据结构与算法/基础算法/4.前缀和.md",
     "C++/C++进阶笔记",
     "数据结构与算法/基础算法/哈希表中二元组表示键值.md",
     "数据结构与算法/基础算法/1.枚举&模拟.md",
@@ -230,7 +208,6 @@
     "Assets/Pictures/Pasted image 20260315131215.png",
     "Assets/Pictures/Pasted image 20260315130415.png",
     "Assets/Pictures/Pasted image 20260314223156.png",
-    "数据结构与算法/基础算法/6.双指针.md",
     "数据结构与算法/基础算法/12.最大公约数和同余原理.md",
     "数据结构与算法/基础算法/27.快速幂、矩阵快速幂、两类问题.md",
     "数据结构与算法/基础算法/22.最小生成树.md",
@@ -250,16 +227,9 @@
     "Assets/Pictures/Pasted image 20260227201735.png",
     "Assets/Pictures/Pasted image 20260227153716.png",
     "数据结构与算法/基础算法/25.贪心.md",
-    "CSS代码风格测试.md",
     "数据结构与算法/基础算法/2.递归.md",
     "数据结构与算法/基础算法/3.分治.md",
-    "数据结构与算法/基础算法/24.A星、Floyd、Bellman-Ford与SPFA.md",
     "操作系统/操作系统原理/进程和线程",
-    "Linux/关于Linux操作系统无法联网等几个常见问题的解决方案.pdf",
-    "Linux/Linux操作系统.pdf",
-    "Linux/Linux原理",
-    "操作系统/操作系统原理",
-    "操作系统",
-    "Linux"
+    "Linux/关于Linux操作系统无法联网等几个常见问题的解决方案.pdf"
   ]
 }
