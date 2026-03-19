@@ -1611,5 +1611,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "CMake/01_CMake基础/1.cmake基本概念.md": {
+    "scroll": 18.382792990572938,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 2
+      },
+      "to": {
+        "line": 19,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
   }
 }
