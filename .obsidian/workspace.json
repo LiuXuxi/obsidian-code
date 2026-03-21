@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/18.洪水填充.md",
+                "file": "数据结构与算法/基础算法/2.递归.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18.洪水填充"
+              "title": "2.递归"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,9 +185,12 @@
   },
   "active": "3861aee9d9195369",
   "lastOpenFiles": [
-    "数据结构与算法/基础算法/23.Dijkstra算法.md",
-    "数据结构与算法/基础算法/18.洪水填充.md",
     "数据结构与算法/基础算法/22.最小生成树.md",
+    "数据结构与算法/基础算法/2.递归.md",
+    "数据结构与算法/基础算法/3.分治.md",
+    "数据结构与算法/基础算法/1.枚举&模拟.md",
+    "数据结构与算法/基础算法/18.洪水填充.md",
+    "数据结构与算法/基础算法/23.Dijkstra算法.md",
     "数据结构与算法/基础算法/21.宽度优先遍历.md",
     "数据结构与算法/基础算法/20.拓扑排序.md",
     "CMake/1.cmake基本概念.md",
@@ -211,7 +213,6 @@
     "Assets/Pictures/Pasted image 20260317212001.png",
     "C++/C++进阶笔记",
     "数据结构与算法/基础算法/哈希表中二元组表示键值.md",
-    "数据结构与算法/基础算法/1.枚举&模拟.md",
     "Assets/Pictures/Pasted image 20260316202148.png",
     "Assets/Pictures/Pasted image 20260315131435.png",
     "Assets/Pictures/Pasted image 20260315131215.png",
@@ -229,8 +230,6 @@
     "数据结构与算法/基础算法/11.位运算.md",
     "数据结构与算法/基础算法/5.差分.md",
     "数据结构与算法/基础算法/10.对数器.md",
-    "数据结构与算法/基础算法/9.异或运算.md",
-    "数据结构与算法/基础算法/7.单调性.md",
     "Assets/Pictures/Pasted image 20260227201735.png"
   ]
 }
