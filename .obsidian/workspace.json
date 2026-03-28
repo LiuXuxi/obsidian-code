@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构与算法/基础算法/8.二分搜索.md",
+                "file": "数据结构与算法/基础算法/4.前缀和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.二分搜索"
+              "title": "4.前缀和"
             }
           }
         ],
@@ -200,6 +200,7 @@
   },
   "active": "e3ca850a1c62fa6f",
   "lastOpenFiles": [
+    "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/1.枚举&模拟.md",
     "数据结构与算法/基础算法/25.贪心.md",
     "数据结构与算法/基础算法/4.前缀和.md",
@@ -242,7 +243,6 @@
     "数据结构与算法/基础算法/19.链式前向星.md",
     "Assets/Pictures/Pasted image 20260314165743.png",
     "Assets/Pictures/Pasted image 20260314165738.png",
-    "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/16.单调队列.md",
     "数据结构与算法/基础算法/11.位运算.md",
     "Assets/Pictures/Pasted image 20260227201735.png"
