@@ -35,8 +35,7 @@
               "title": "12.最大公约数和同余原理"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gcd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +88,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,10 +197,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e3ca850a1c62fa6f",
+  "active": "3861aee9d9195369",
   "lastOpenFiles": [
-    "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/12.最大公约数和同余原理.md",
+    "数据结构与算法/基础算法/8.二分搜索.md",
     "数据结构与算法/基础算法/1.枚举&模拟.md",
     "数据结构与算法/基础算法/4.前缀和.md",
     "数据结构与算法/基础算法/哈希表中二元组表示键值.md",
