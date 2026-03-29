@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "拔河",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,7 +198,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e3ca850a1c62fa6f",
+  "active": "fc494afcf0c86134",
   "lastOpenFiles": [
     "数据结构与算法/基础算法/4.前缀和.md",
     "数据结构与算法/基础算法/哈希表中二元组表示键值.md",
