@@ -88,8 +88,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,7 +197,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3861aee9d9195369",
+  "active": "fc494afcf0c86134",
   "lastOpenFiles": [
     "数据结构与算法/基础算法/28.一维动态规划.md",
     "数据结构与算法/基础算法/1.枚举&模拟.md",
