@@ -69,15 +69,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 2,
+        "ch": 4
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 2,
+        "ch": 4
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-0",
+      "item-4-3"
+    ]
   },
   "copilot/copilot-custom-prompts/Emojify.md": {
     "scroll": 0,
@@ -749,7 +752,7 @@
     ]
   },
   "数据结构与算法/数据结构/3.栈.md": {
-    "scroll": 380.2402074420263,
+    "scroll": 374.07082786560056,
     "cursor": {
       "from": {
         "line": 396,
